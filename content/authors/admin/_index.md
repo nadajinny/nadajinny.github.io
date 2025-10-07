@@ -68,56 +68,79 @@ education:
     date_end: ''
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: 인턴
+    company_name: 올콘텐츠에이아이
+    company_url: https://allcontentsai.com/ko/
     company_logo: ''
-    date_start: 2020-01-01
+    date_start: 2025-09-01
+    date_end: 2025-10-01
+    summary: 
+      웹툰 사이트 개발 보조 진행(프론트엔드 및 DB)
+      # 경력 및 프로젝트
+  - position: 학부 연구생 / AI 개발자
+    company_name: KSL-JBNU (전북대학교 소프트웨어학습연구실)
+    company_url: 'https://www.ksl.jbnu.ac.kr/'
+    date_start: 2025-01-01
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      전북대학교 KSL 연구실에서 인공지능 기반 응용 프로젝트를 수행 중.  
+      주요 프로젝트:
+      - 🎮 **Omok AI**: Alpha-Beta 탐색 기반 오목 AI 개발 및 평가 함수 개선  
+      - 💬 **Medi-Mate**: 음성 인식 기반 진료 기록 요약 앱 (React Native + FastAPI + VITO STT)  
+      - 🌦️ **JusTrip**: 실시간 날씨 기반 AI 여행 추천 웹앱 (React + GPT + OpenWeather API)  
+      - ⚙️ **OS Simulator**: CPU 스케줄링 및 Demand Paging 시뮬레이터 구현  
+      - 🔗 **OAuth Login App**: Google/Naver/Kakao OAuth 연동 앱 개발 (FastAPI 백엔드 + InAppBrowser)
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
+
+# 기술 스택
 skills:
-  - name: Technical Skills
+  - name: Programming & AI
     items:
-      - name: Python & PyTorch
-        description: ''
+      - name: Python (PyTorch, NumPy, Pandas)
         percent: 95
         icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
+      - name: Machine Learning & Deep Learning
+        percent: 90
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
+      - name: Reinforcement Learning / Game AI
+        percent: 85
+        icon: gamepad
+      - name: NLP / STT / Summarization
+        percent: 85
+        icon: microphone
+  - name: Web & App Development
+    items:
+      - name: React / React Native
+        percent: 90
+        icon: smartphone
+      - name: FastAPI / Firebase
         percent: 85
         icon: cloud
+      - name: Google Cloud / AI API Integration
+        percent: 80
+        icon: server
+  - name: Tools & Collaboration
+    items:
+      - name: Git / GitHub / Notion / Figma
+        percent: 85
+        icon: wrench
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
-        description: ''
+      - name: 등산
         percent: 80
         icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
+      - name: AI 관련 글쓰기 & 발표
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
         icon: book-open
+      - name: 기술 블로그 작성
+        percent: 85
+        icon: pencil-square
+
 
 languages:
   - name: English
