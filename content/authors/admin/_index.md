@@ -68,7 +68,7 @@ education:
     date_end: ''
 
 work:
-  - position: 인턴
+  - position: 산학협력  인턴
     company_name: 올콘텐츠에이아이
     company_url: https://allcontentsai.com/ko/
     company_logo: ''
@@ -143,10 +143,10 @@ skills:
 
 
 languages:
-  - name: English
+  - name: Korean
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: English
+    percent: 80
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -176,4 +176,15 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+이진선은 전북대학교 인공지능융합학과 학부 연구생으로, 다양한 AI 응용 프로젝트를 수행하며 이론과 실무를 겸비한 연구 역량을 쌓아가고 있습니다.  
+주요 연구 주제는 **딥러닝**, **강화학습**, **자연어처리**, **음성 인식 및 요약**, **AI 윤리**이며,  
+실제 서비스를 구현하는 데 필요한 **React Native**, **FastAPI**, **Firebase**, **Cloud API** 기술도 적극적으로 활용하고 있습니다.  
+
+대표 프로젝트로는  
+- 🎮 Alpha-Beta 탐색 기반 **Omok AI**  
+- 💬 음성 요약 진료 앱 **Medi-Mate**  
+- 🌦️ AI 여행 추천 웹앱 **JusTrip**  
+이 있으며,  
+AI 모델 개발뿐 아니라 UI/UX, 백엔드, API 연동까지 **풀스택 AI 개발 경험**을 보유하고 있습니다.  
+
+사람 중심의 윤리적 AI, 실용적인 AI 서비스 구현을 목표로 연구와 개발을 이어가고 있습니다.
