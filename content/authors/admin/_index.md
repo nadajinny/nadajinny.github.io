@@ -6,15 +6,15 @@ title: 이진선
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: 이
-last_name: 진선
+first_name: 진선
+last_name: 이
 
 # Pronouns (optional)
 pronouns: she/her
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 😱
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,29 +23,27 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Software Developer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: 전북대학교 컴퓨터인공지능학부
+    url: https://csai.jbnu.ac.kr/csai/index.do
+  - name: 의료인공지능 및 계산과학 연구실
+    url: https://jbnu.macs.or.kr/about/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:jinsun23007@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/nadajinny
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/jinsun-lee-9a806a364/
 
 interests:
   - Large Language Models
@@ -54,10 +52,10 @@ interests:
   - AI Ethics
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: 컴퓨터인공지능학부 학사
+    institution: 전북대학교
+    date_start: 2023-03-01
+    date_end: 2026-08-30
     summary: |
       Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
     button:
