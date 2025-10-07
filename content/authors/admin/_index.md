@@ -10,7 +10,7 @@ first_name: 이
 last_name: 진선
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: she/her
 
 # Status emoji
 status:
