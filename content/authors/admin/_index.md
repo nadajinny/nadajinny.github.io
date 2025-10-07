@@ -55,28 +55,17 @@ education:
   - area: 컴퓨터인공지능학부 학사
     institution: 전북대학교
     date_start: 2023-03-01
-    date_end: 2026-08-30
+    date_end: 2026-08-30 
     summary: |
+      학점: 4.17/4.5
       Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
+    button: 
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+  - area: 전자공학부 학석사연계
+    institution: 전북대학교
+    date_start: 2025-09-01
+    date_end: ''
 
 work:
   - position: Senior AI Research Scientist
