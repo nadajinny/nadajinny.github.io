@@ -46,10 +46,10 @@ profiles:
     url: https://www.linkedin.com/in/jinsun-lee-9a806a364/
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Web Full-Stack
+  - Android/IOS Full-Stack
+  - Game programming(Unity)
+  - AI utilization application
 
 education:
   - area: 컴퓨터인공지능학부 학사
