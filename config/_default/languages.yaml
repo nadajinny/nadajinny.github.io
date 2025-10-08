@@ -3,23 +3,21 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-# languages.yaml
+en:
+  languageCode: en-us
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  #contentDir: content/en
 
-# English (기본 언어)
-#en:
-#  languageCode: en-us
+# Uncomment the lines below to configure your website in a second language.
+#zh:
+#  languageCode: zh-Hans
+#  contentDir: content/zh
+#  title: Chinese website title...
+#  params:
+#    description: Site description in Chinese...
+#  menu:
+#    main:
+#      - name: 传
+#        url: '#about'
+#        weight: 1
 
-# 한국어
-ko:
-  languageCode: ko
-  title: 이진선 포트폴리오
-  params:
-    description: HugoBlox로 만든 다국어 웹사이트
-  menu:
-    main:
-      - name: 소개
-        url: '#about'
-        weight: 1
-      - name: 연락하기
-        url: '#contact'
-        weight: 2
