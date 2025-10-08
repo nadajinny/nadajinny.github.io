@@ -6,25 +6,12 @@
 # languages.yaml
 
 # English (기본 언어)
-en:
-  languageCode: en-us
-  contentDir: content/en
-  title: Leejinsun portfolio
-  params:
-    description: A multilingual website built with HugoBlox
-  menu:
-    main:
-      - name: About
-        url: '#about'
-        weight: 1
-      - name: Contact
-        url: '#contact'
-        weight: 2
+#en:
+#  languageCode: en-us
 
 # 한국어
 ko:
   languageCode: ko
-  contentDir: content/ko
   title: 이진선 포트폴리오
   params:
     description: HugoBlox로 만든 다국어 웹사이트
