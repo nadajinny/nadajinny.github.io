@@ -153,27 +153,27 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: 2024 제2회 SW역량인증제 브론즈
+    url: https://swuniv.jbnu.ac.kr
+    date: '2024-07-01'
+    awarder: SW중심대학사업단
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
+      Awarded Programming solved competition get bronze medal
+  - title: 2025 제1회 SW역량인증제 실버 최우수 
+    url: https://swuniv.jbnu.ac.kr
+    date: '2025-06-15'
+    awarder: SW중심대학사업단
     icon: hero/currency-dollar
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
+      SW역량인증제 PS문제 실버무문에서 인증 및 최우수 실적
+  - title: 2025 JBNU SW.AI 경진대회 3등
     url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+    date: '2025-06-30'
+    awarder: 전북대학교
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Medi-Mate라는 어플리케이션을 기획,개발하여 경진대회 3등 수상
 ---
 
 이진선은 전북대학교 인공지능융합학과 학부 연구생으로, 다양한 AI 응용 프로젝트를 수행하며 이론과 실무를 겸비한 연구 역량을 쌓아가고 있습니다.  
