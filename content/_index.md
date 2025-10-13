@@ -89,7 +89,7 @@ sections:
       map:
         provider: googlemaps
         # 아래 주소를 실제 Google Maps에서 '공유 → HTML로 내보내기'로 복사한 iframe src로 교체하세요
-        iframe_url: "https://maps.app.goo.gl/ASC7KtNpFvmqdhqh9"
+        iframe src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.121143956724!2d127.13188281121828!3d35.846032920789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35702330dc920b9d%3A0x1d0d425396006646!2z7KCE67aB64yA7ZWZ6rWQIOqzteqzvOuMgO2VmSA37Zi46rSA!5e0!3m2!1sko!2skr!4v1760321001816!5m2!1sko!2skr"
         width: "100%"
         height: "400"
         style: "border:0;"
