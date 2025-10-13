@@ -59,9 +59,6 @@ education:
     summary: |
       학점: 4.17/4.5
       Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button: 
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
   - area: 전자공학부 학석사연계
     institution: 전북대학교
     date_start: 2025-09-01
