@@ -53,8 +53,8 @@ main:
     url: project/
     weight: 50
     identifier: projects
-  - name: Lecuture
-    url: /project/#lecuture
+  - name: Lecture
+    url: /project/#lecture
     parent: projects
     weight: 51
   - name: Contest
