@@ -26,10 +26,10 @@ main:
     url: /
     weight: 10
     identifier: bio
-  - name: News
-    url: /#news
-    weight: 30
-    identifier: news
+  # - name: News
+  #   url: /#news
+  #   weight: 30
+  #   identifier: news
 
   - name: Experience
     url: /experience/
