@@ -42,15 +42,6 @@ sections:
     design:
       columns: '1'
   - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
     id: news
     content:
       title: Recent News
