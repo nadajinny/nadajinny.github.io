@@ -80,18 +80,19 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
   - block: map
+    id: map
     content:
-    title: "📍 Location"
-    subtitle: "전북대학교 공과대학 7호관 621"
-    text: "방문을 원하시면 아래 지도를 참고하세요!"
-    # Google Maps embed URL
-    map:
-      provider: googlemaps
-      # 아래 주소를 실제 Google Maps에서 '공유 → HTML로 내보내기'로 복사한 iframe src로 교체하세요
-      iframe_url: "https://maps.app.goo.gl/ASC7KtNpFvmqdhqh9"
-      width: "100%"
-      height: "400"
-      style: "border:0;"
+      title: "📍 Location"
+      subtitle: "전북대학교 공과대학 7호관 621"
+      text: "방문을 원하시면 아래 지도를 참고하세요!"
+      # Google Maps embed URL
+      map:
+        provider: googlemaps
+        # 아래 주소를 실제 Google Maps에서 '공유 → HTML로 내보내기'로 복사한 iframe src로 교체하세요
+        iframe_url: "https://maps.app.goo.gl/ASC7KtNpFvmqdhqh9"
+        width: "100%"
+        height: "400"
+        style: "border:0;"
 
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
