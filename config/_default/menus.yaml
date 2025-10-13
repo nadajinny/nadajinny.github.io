@@ -58,7 +58,7 @@ main:
 
 
   - name: Projects
-    url: /project
+    url: /project/
     weight: 50
     identifier: project
 
