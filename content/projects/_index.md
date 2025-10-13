@@ -1,26 +1,15 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: Projects
 type: landing
-
-design:
-  # Section spacing
-  spacing: '5rem'
-
-# Page sections
 sections:
-  - block: collection
+
+  - block: markdown
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
+      text: |
+        <div class="bg-blue-200 text-center py-10">
+          <h2 class="text-3xl font-bold text-blue-800">✅ HTML Render Test</h2>
+          <p class="mt-2 text-gray-700">이 텍스트가 색상/스타일과 함께 보이면 <strong>unsafe 설정</strong>이 제대로 작동하는 거예요.</p>
+        </div>
+
+  # (Contest 섹션도 같은 방식으로 들여쓰기 2칸 이하로 맞춰서 붙이면 됨)
 ---
