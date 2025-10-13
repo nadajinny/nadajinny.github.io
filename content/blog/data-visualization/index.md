@@ -1,237 +1,101 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
-summary: Use popular tools such as HuggingFace, Plotly, Mermaid, and data frames.
-date: 2023-10-25
-authors:
-  - admin
-tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
+title: 🎉 의료인공지능 및 계산과학 연구실 학부연구생 시작
+summary: 전북대학교에서 랩실을 시작하게되었다.
+date: 2023-10-27
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+
+authors:
+  - admin
+  - Ted
+
+tags:
+  - Academic
+  - Hugo Blox
+  - Markdown
+
+content_meta:
+  trending: true
 ---
 
-Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
+Welcome 👋
 
-Use popular tools such as Plotly, Mermaid, and data frames.
+{{< toc mobile_only=true is_open=true >}}
 
-## Embed Rich Content
+## Overview
 
-HuggingFace Model
+1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
+2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
+3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
 
-{{< embed platform="huggingface" resource="google/embeddinggemma-300m" type="model" >}}
+[//]: # '[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/HugoBlox/hugo-blox-builder/main/starters/academic-cv/preview.png)](https://hugoblox.com)'
 
-HuggingFace Dataset
+### Get Started
 
-{{< embed platform="huggingface" resource="fka/awesome-chatgpt-prompts" type="dataset" >}}
+> [!TIP]+ Quick Start Guide
+> New to Hugo Blox? Follow these steps to get your site up and running in minutes!
 
-GitHub Repository
+- 👉 [**Create a new site**](https://hugoblox.com/templates/)
+- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
+- 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
+- 🐦 Twitter: [@GetResearchDev](https://x.com/BuildLore) [@GeorgeCushen](https://twitter.com/GeorgeCushen) #MadeWithHugoBlox
+- 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/hugo-blox-builder/issues)
+- ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
 
-{{< embed platform="github" resource="HugoBlox/hugo-blox-builder" type="repo" >}}
+> [!IMPORTANT]
+> Remember to backup your site before making major updates!
 
-Custom embed with manual data
+## Crowd-funded open-source software
 
-{{< embed url="https://example.com" title="My Custom Resource" description="A great resource for learning" >}}
+To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
 
-### Custom Images
+### [❤️ Click here to become a sponsor and help support Hugo Blox's future ❤️](https://hugoblox.com/sponsor/)
 
-Embed beautiful images from any source with Hugo image processing (Unsplash, custom URLs, etc.):
+As a token of appreciation for sponsoring, you can **unlock [these](https://hugoblox.com/sponsor/) awesome rewards and extra features 🦄✨**
 
-{{< embed url="https://example.com" title="Data Visualization Guide" description="Beautiful data visualization workspace" image="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=800&h=600&auto=format&fit=crop" width="800" height="600" quality="90" >}}
+## Ecosystem
 
-You can also add images to any platform embed:
+- **[Bibtex To Markdown](https://github.com/GetRD/academic-file-converter):** Automatically import publications from BibTeX
 
-{{< embed platform="github" resource="plotly/plotly.py" type="repo" image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&auto=format&fit=crop" width="600" height="400" >}}
+## Inspiration
 
-## Charts
+[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
 
-Hugo Blox supports the popular [Plotly](https://plot.ly/) format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!
+## Features
 
-Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
+> [!NOTE]+ Enhanced Markdown Support  
+> Hugo Blox now supports GitHub and Obsidian-style callouts! Use standard Markdown alert syntax like `> [!NOTE]` for better portability.
 
-Demo:
+- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
+- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
+- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
+- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
+- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
+- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
+- **Beautiful Site** - Simple and refreshing one-page design
+- **Industry-Leading SEO** - Help get your website found on search engines and social media
+- **Media Galleries** - Display your images and videos with captions in a customizable gallery
+- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
+- **Multi-language** - 35+ language packs including English, 中文, and Português
+- **Multi-user** - Each author gets their own profile page
+- **Privacy Pack** - Assists with GDPR
+- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
+- **One-Click Deployment** - No servers. No databases. Only files.
 
-{{< chart data="line-chart" >}}
+> [!WARNING]+ Version Requirements  
+> The new Markdown alert syntax requires Hugo v0.132.0 or later. Make sure you're using a compatible version!
 
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
+## Themes
 
-## Diagrams
+Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
 
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
+[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
 
-An example **flowchart**:
+## License
 
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
-
-renders as
+Copyright 2016-present [George Cushen](https://georgecushen.com).
 
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-An example **sequence diagram**:
-
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
-
-renders as
-
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
-
-An example **class diagram**:
-
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-    ```
-
-renders as
-
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label
-```
-
-An example **state diagram**:
-
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
-
-renders as
-
-```mermaid
-stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-```
-
-## Data Frames
-
-Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
-
-```go
-{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
-```
-
-renders as
-
-{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
-
-## Interactive Buttons
-
-Add engaging call-to-action buttons to your data visualization posts:
-
-### Basic Buttons
-
-{{< button url="/" >}}Contact Us{{< /button >}}
-
-&nbsp;
-
-{{< button url="https://plotly.com/python/" new_tab="true" style="secondary" >}}Learn Plotly{{< /button >}}
-
-```go-html-template
-{{</* button url="/" */>}}Contact Us{{</* /button */>}}
-
-{{</* button url="https://plotly.com/python/" new_tab="true" style="secondary" */>}}Learn Plotly{{</* /button */>}}
-```
-
-### Styled Buttons for Data Actions
-
-{{< button url="#" style="primary" size="lg" align="center" icon="chart-bar" >}}View Dashboard{{< /button >}}
-
-&nbsp;
-
-{{< button url="/data/results.csv" style="outline" icon="document-arrow-down" >}}Download Data{{< /button >}}
-
-&nbsp;
-
-{{< button url="https://github.com/HugoBlox" new_tab="true" style="ghost" icon="arrow-top-right-on-square" icon_position="right" >}}View Source Code{{< /button >}}
-
-```go-html-template
-{{</* button url="#" style="primary" size="lg" align="center" icon="chart-bar" */>}}View Dashboard{{</* /button */>}}
-
-{{</* button url="/data/results.csv" style="outline" icon="document-arrow-down" */>}}Download Data{{</* /button */>}}
-
-{{</* button url="https://github.com/HugoBlox" new_tab="true" style="ghost" icon="arrow-top-right-on-square" icon_position="right" */>}}View Source Code{{</* /button */>}}
-```
-
-### Multiple Aligned Buttons
-
-{{< button url="https://jupyter.org/" new_tab="true" style="secondary" rounded="full" align="center" >}}Try Jupyter{{< /button >}}
-
-&nbsp;
-
-{{< button url="https://colab.research.google.com/" new_tab="true" style="primary" rounded="full" align="center" icon="rocket-launch" >}}Open in Colab{{< /button >}}
-
-```go-html-template
-{{</* button url="https://jupyter.org/" new_tab="true" style="secondary" rounded="full" align="center" */>}}Try Jupyter{{</* /button */>}}
-
-{{</* button url="https://colab.research.google.com/" new_tab="true" style="primary" rounded="full" align="center" icon="rocket-launch" */>}}Open in Colab{{</* /button */>}}
-```
-
-## Did you find this page helpful? Consider sharing it 🙌
+Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
