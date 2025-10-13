@@ -21,7 +21,7 @@ sections:
     design:
       # Hugo date format
       date_format: 'January 2006'
-      is_education_first: true
+      is_education_first: false
   - block: resume-skills
     id: skills
     content:
