@@ -138,6 +138,22 @@ skills:
         percent: 85
         icon: pencil-square
 
+artificial_intelligence: 
+  - name: Programming & AI
+    items:
+      - name: Python (PyTorch, NumPy, Pandas)
+        percent: 95
+        icon: code-bracket
+      - name: Machine Learning & Deep Learning
+        percent: 90
+        icon: chart-bar
+      - name: Reinforcement Learning / Game AI
+        percent: 85
+        icon: gamepad
+      - name: NLP / STT / Summarization
+        percent: 85
+        icon: microphone
+
 
 languages:
   - name: Korean
