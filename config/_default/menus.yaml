@@ -50,11 +50,11 @@ main:
 
 
   - name: Projects
-    url: /project/
+    url: project/
     weight: 50
     identifier: projects
-  - name: Class
-    url: /project/#class
+  - name: Lecuture
+    url: /project/#lecuture
     parent: projects
     weight: 51
   - name: Contest
@@ -63,14 +63,7 @@ main:
     weight: 52
 
   - name: Courses
-    url: /course/
+    url: courses/
     weight: 60
     identifier: courses
-  - name: In Progress
-    url: /course/#current
-    parent: courses
-    weight: 61
-  - name: Completed
-    url: /course/#completed
-    parent: courses
-    weight: 62
+
