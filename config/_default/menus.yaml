@@ -3,19 +3,86 @@
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
 
+# main:
+#   - name: Bio
+#     url: /
+#     weight: 10
+#   - name: News
+#     url: /#news
+#     weight: 13
+#   - name: Experience
+#     url: experience/
+#     weight: 20
+#   - name: Projects
+#     url: projects/
+#     weight: 30
+#   - name: Courses
+#     url: courses/
+#     weight: 40
+
+
 main:
   - name: Bio
-    url: /
+    url: /bio/
     weight: 10
+    identifier: bio
+  - name: Past Talks
+    url: /talk/#past
+    parent: talks
+    weight: 21
+  - name: Upcoming
+    url: /talk/#upcoming
+    parent: talks
+    weight: 22
+
   - name: News
-    url: /#news
-    weight: 13
-  - name: Experience
-    url: experience/
-    weight: 20
-  - name: Projects
-    url: projects/
+    url: /news/
     weight: 30
-  - name: Courses
-    url: courses/
+    identifier: news
+  - name: Lab News
+    url: /news/lab/
+    parent: news
+    weight: 31
+  - name: Media
+    url: /news/media/
+    parent: news
+    weight: 32
+
+  - name: Experience
+    url: /experience/
     weight: 40
+    identifier: experience
+  - name: Mentoring
+    url: /experience/#mentoring
+    parent: experience
+    weight: 41
+  - name: Research
+    url: /experience/#research
+    parent: experience
+    weight: 42
+
+  - name: Projects
+    url: /project/
+    weight: 50
+    identifier: projects
+  - name: Class
+    url: /project/#class
+    parent: projects
+    weight: 51
+  - name: Contest
+    url: /project/#contest
+    parent: projects
+    weight: 52
+
+  - name: Courses
+    url: /course/
+    weight: 60
+    identifier: courses
+  - name: In Progress
+    url: /course/#current
+    parent: courses
+    weight: 61
+  - name: Completed
+    url: /course/#completed
+    parent: courses
+    weight: 62
