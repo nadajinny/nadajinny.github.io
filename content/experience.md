@@ -8,9 +8,12 @@ design:
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
+
+
 # Page sections
 sections:
   - block: resume-experience
+    id: experience
     content:
       username: admin
     design:
@@ -19,16 +22,19 @@ sections:
       # Education or Experience section first?
       is_education_first: false
   - block: resume-skills
+    id: skills
     content:
       title: Skills & Hobbies
       username: admin
     design:
       show_skill_percentage: false
   - block: resume-awards
+    id: awards
     content:
       title: Awards
       username: admin
   - block: resume-languages
+    id: languages
     content:
       title: Languages
       username: admin
