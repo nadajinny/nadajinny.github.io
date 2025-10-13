@@ -57,21 +57,18 @@ main:
     weight: 45
 
 
-  # - name: Projects
-  #   url: /project/
-  #   weight: 50
-  #   identifier: project
-  # - name: Lecture
-  #   url: /project/#lecture
-  #   parent: projects
-  #   weight: 51
-  # - name: Contest
-  #   url: /project/#contest
-  #   parent: projects
-  #   weight: 52
+  - name: Projects
+    url: /project
+    weight: 50
+    identifier: project
 
-  - name: Courses
-    url: courses/
+  - name: Blog
+    url: /blog/
+    weight: 51
+    identifier: blog
+
+  - name: Course
+    url: course/
     weight: 60
-    identifier: courses
+    identifier: course
 
