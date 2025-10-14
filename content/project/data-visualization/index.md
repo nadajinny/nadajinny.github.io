@@ -1,6 +1,6 @@
 ---
 title: Medi-Mate
-summary: 메디메이트
+summary: 2025 SW·AI 경진대회 은상
 date: 2025-10-14
 
 # Featured image
@@ -12,7 +12,7 @@ authors:
   - admin
 
 tags:
-  - Academic
+  - Conte
 
 content_meta:
   trending: true
