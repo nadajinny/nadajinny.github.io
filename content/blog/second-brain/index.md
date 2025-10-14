@@ -1,7 +1,7 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: 🧠 카카오 관광데이터 공모전을 준비하며
+summary: 카카오 관광데이터 공모전을 준비하고 진행하면서 느낀점을 정리
+date: 2025-09-26
 authors:
   - admin
 tags:
