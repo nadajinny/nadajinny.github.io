@@ -1,6 +1,6 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
+title: 🎉 우아한 테크코스 프리코스를 시작
+summary: 우아한 테크코스 프리코스를 시작하게 되다.
 date: 2023-10-27
 
 # Featured image
@@ -10,43 +10,54 @@ image:
 
 authors:
   - admin
-  - Ted
 
 tags:
   - Academic
-  - Hugo Blox
-  - Markdown
 
 content_meta:
   trending: true
 ---
 
-Welcome 👋
+안녕하세요 👋
+
+두 번째 작성글로 찾아오게 된 이진선입니다!
+
+제가 최근 10월 10일까지 신청 마감일자였던 우아한 테크코스에 지원서를 넣었는데요.
+
+그래서 이번 글에서는 우아한 테크코스와 참여하게 된 이유에 대해서 작성해볼까 합니다.
 
 {{< toc mobile_only=true is_open=true >}}
 
 ## Overview
 
-1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
+1. 우아한 테크코스가 뭐예요?
 2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
 3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
 
 [//]: # '[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/HugoBlox/hugo-blox-builder/main/starters/academic-cv/preview.png)](https://hugoblox.com)'
 
-### Get Started
+### 우아한 테크코스란?
 
-> [!TIP]+ Quick Start Guide
-> New to Hugo Blox? Follow these steps to get your site up and running in minutes!
 
-- 👉 [**Create a new site**](https://hugoblox.com/templates/)
-- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://x.com/BuildLore) [@GeorgeCushen](https://twitter.com/GeorgeCushen) #MadeWithHugoBlox
-- 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+우아한 테크코스는 
 
-> [!IMPORTANT]
-> Remember to backup your site before making major updates!
+- **서류접수** : 2025년 9월 29일(월) 오후 3시 ~ 10월 10일(금) 오전 10시
+
+- **프리코스** : 2025년 10월 14일(화) ~ 11월 17일(월)
+
+- **1차 합격자 발표** : 2025년 12월 29일(월) 오후 3시
+
+- **최종 코딩 테스트** : 2026년 1월 10일(토) / 오프라인, 장소는 추후 안내 예정
+
+- **최종 합격자 발표** : 2026년 1월 23일(금) 오후 3시
+
+- **본코스 시작** : 2026년 2월 24일(화) 오전 10시
+
+다음과 같은 과정으로 이루어져있는데요. 
+
+우아한 테크코스에서의 프리코스는 서류 접수를 한 모든 인원이 참여하는 활동으로, 현재 제가 포함되어있는 디스코드 서버에 총 천명이 넘는 참여자가 활동 중입니다!
+
+정말 많은 인원이죠..
 
 ## Crowd-funded open-source software
 
@@ -88,14 +99,3 @@ As a token of appreciation for sponsoring, you can **unlock [these](https://hugo
 > [!WARNING]+ Version Requirements  
 > The new Markdown alert syntax requires Hugo v0.132.0 or later. Make sure you're using a compatible version!
 
-## Themes
-
-Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
-
-[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
