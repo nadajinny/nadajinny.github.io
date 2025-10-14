@@ -1,7 +1,7 @@
 ---
-title: 🎉 우아한 테크코스 프리코스를 시작
-summary: 우아한 테크코스 프리코스를 시작하게 되다.
-date: 2023-10-27
+title: Read&Lead
+summary: 2025 카카오 관광 데이터 공모전 
+date: 2025-09-27
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
