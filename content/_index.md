@@ -51,7 +51,7 @@ sections:
       sort_by: "date"
       view: card
     design:
-      columns: 3
+      columns: '3'
   - block: collection
     content:
       title: "Blog"
@@ -61,7 +61,7 @@ sections:
       sort_by: "date"
       view: card
     design:
-      columns: 3
+      columns: '3'
   - block: markdown
     content:
       title: "📍 Location"

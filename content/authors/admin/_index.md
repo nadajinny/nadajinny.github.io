@@ -55,6 +55,10 @@ profiles:
     url: 'tel:+821029521090'
     label: 010-2952-1090
 
+tags: ["전북대학교", "JBNU", "이진선"]
+keywords: ["전북대학교", "JBNU", "이진선"]
+
+
 interests:
   - Web Full-Stack
   - Android/IOS Full-Stack
