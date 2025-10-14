@@ -12,7 +12,7 @@ authors:
   - admin
 
 tags:
-  - Conte
+  - Contest
 
 content_meta:
   trending: true
