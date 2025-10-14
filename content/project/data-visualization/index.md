@@ -1,7 +1,7 @@
 ---
 title: 🎉 의료인공지능 및 계산과학 연구실 학부연구생 시작
 summary: 전북대학교에서 랩실을 활동을 하다.
-date: 2023-10-27
+date: 2025-10-14
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
