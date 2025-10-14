@@ -12,7 +12,7 @@ authors:
   - admin
 
 tags:
-  - Academic
+  - Contest
 
 content_meta:
   trending: true
