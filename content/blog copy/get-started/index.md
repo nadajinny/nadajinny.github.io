@@ -24,6 +24,21 @@ content_meta:
 
 제가 최근 10월 10일까지 신청 마감일자였던 우아한 테크코스에 지원서를 넣었는데요.
 
+그래서 이번 글에서는 우아한 테크코스와 참여하게 된 이유에 대해서 작성해볼까 합니다.
+
+{{< toc mobile_only=true is_open=true >}}
+
+## Overview
+
+1. 우아한 테크코스가 뭐예요?
+2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
+3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+
+[//]: # '[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/HugoBlox/hugo-blox-builder/main/starters/academic-cv/preview.png)](https://hugoblox.com)'
+
+### 우아한 테크코스란?
+
+
 우아한 테크코스는 
 
 - **서류접수** : 2025년 9월 29일(월) 오후 3시 ~ 10월 10일(금) 오전 10시
@@ -38,30 +53,11 @@ content_meta:
 
 - **본코스 시작** : 2026년 2월 24일(화) 오전 10시
 
-{{< toc mobile_only=true is_open=true >}}
+다음과 같은 과정으로 이루어져있는데요. 
 
-## Overview
+우아한 테크코스에서의 프리코스는 서류 접수를 한 모든 인원이 참여하는 활동으로, 현재 제가 포함되어있는 디스코드 서버에 총 천명이 넘는 참여자가 활동 중입니다!
 
-1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
-
-[//]: # '[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/HugoBlox/hugo-blox-builder/main/starters/academic-cv/preview.png)](https://hugoblox.com)'
-
-### Get Started
-
-> [!TIP]+ Quick Start Guide
-> New to Hugo Blox? Follow these steps to get your site up and running in minutes!
-
-- 👉 [**Create a new site**](https://hugoblox.com/templates/)
-- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://x.com/BuildLore) [@GeorgeCushen](https://twitter.com/GeorgeCushen) #MadeWithHugoBlox
-- 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
-
-> [!IMPORTANT]
-> Remember to backup your site before making major updates!
+정말 많은 인원이죠..
 
 ## Crowd-funded open-source software
 
