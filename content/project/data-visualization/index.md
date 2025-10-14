@@ -1,6 +1,6 @@
 ---
 title: 🎉 의료인공지능 및 계산과학 연구실 학부연구생 시작
-summary: 전북대학교에서 랩실을 시작하게되었다.
+summary: 전북대학교에서 랩실을 활동을 하다.
 date: 2023-10-27
 
 # Featured image
@@ -10,43 +10,27 @@ image:
 
 authors:
   - admin
-  - Ted
 
 tags:
   - Academic
-  - Hugo Blox
-  - Markdown
 
 content_meta:
   trending: true
 ---
 
-Welcome 👋
+안녕하세요 👋
 
 {{< toc mobile_only=true is_open=true >}}
 
 ## Overview
 
-1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+1. 이번에 제가 들어가게 된 연구실은 전북대학교 의료인공지능 및 계산과학 연구실 입니다. 
+2. 저는 해당 연구실에서 개발 관련 업무를 맡게 되었습니다. 25년도 상반기에는 RN을 활용한 앱 개발 업무를 맡았고, 25년도 하반기부터 React, Vue.js, Flutter와 같이 다양한 개발영역을 넓혀가고 있습니다.
+3. AI를 활용한 어플리케이션들을 제작하며 풀스택 개발자로서 성장해나아가고 있습니다.
 
 [//]: # '[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/HugoBlox/hugo-blox-builder/main/starters/academic-cv/preview.png)](https://hugoblox.com)'
 
 ### Get Started
-
-> [!TIP]+ Quick Start Guide
-> New to Hugo Blox? Follow these steps to get your site up and running in minutes!
-
-- 👉 [**Create a new site**](https://hugoblox.com/templates/)
-- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://x.com/BuildLore) [@GeorgeCushen](https://twitter.com/GeorgeCushen) #MadeWithHugoBlox
-- 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
-
-> [!IMPORTANT]
-> Remember to backup your site before making major updates!
 
 ## Crowd-funded open-source software
 
