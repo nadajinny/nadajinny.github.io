@@ -13,6 +13,7 @@ authors:
 
 tags:
   - Contest
+  - Project
 
 content_meta:
   trending: true

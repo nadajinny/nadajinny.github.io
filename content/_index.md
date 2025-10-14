@@ -41,6 +41,17 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
+
+  - block: collection
+    content:
+      title: "Projects"
+      filters:
+        folders:
+          - project
+      sort_by: "date"
+      view: article-list
+    design:
+      columns: 1
   - block: markdown
     content:
       title: "📍 Location"
