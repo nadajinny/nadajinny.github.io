@@ -20,13 +20,13 @@ enableRobotsTXT: true
 
 languages:
   ko:
-    title: 이준호의 페이지 # 한국어 웹사이트 이름
+    title: 이진선 포트폴리오 # 한국어 웹사이트 이름
     languageName: 한국어
     contentDir: content/ko
     weight: 1
   en:
     # 이 부분에 기존 title을 옮깁니다.
-    title: page of Jun HO LEE # 영어 웹사이트 이름
+    title: leejinsun Portfolio # 영어 웹사이트 이름
     languageName: English
     contentDir: content/en
     weight: 2
