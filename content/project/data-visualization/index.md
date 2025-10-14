@@ -49,34 +49,18 @@ content_meta:
 
 ## 느낀 점
 
-[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
+제가 연구실에서 활동하면서 느낀 점은 일의 규모는 겪어보아야지 할 수 있는 능력치가 늘 수 있다는 점이었습니다.
 
-## Features
+저는 자신의 개발 역량에 대해서 신뢰를 가지지 못하는 편이였습니다. 
 
-> [!NOTE]+ Enhanced Markdown Support  
-> Hugo Blox now supports GitHub and Obsidian-style callouts! Use standard Markdown alert syntax like `> [!NOTE]` for better portability.
+하지만 직접 연구실에서 다양한 활동들을 접해보고 사람들과 협업을 진행하면서 일을 어떻게 해야하는지에 대해서 배울 수 있는 기회가 되었습니다. 
 
-- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
-- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one-page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+더하여 자신에 대해서 더 깊게 알 수 있는 시간들이였습니다. 
 
-> [!WARNING]+ Version Requirements  
-> The new Markdown alert syntax requires Hugo v0.132.0 or later. Make sure you're using a compatible version!
+스스로가 개발에 대해서 엄청난 애정을 가지고 있다고 생각하지 못하였는데 개발에 대해서 애정을 가지고 있는다는 것을 깨닫게 되고, 
 
-## Themes
+제가 할 수 있는 역량 그 이상을 실천하기 위해서 노력하는 시간을 스스로 가질 수 있게 되었습니다. 
 
-Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
+그를 통해서 한 단계 그 이상을 나아가게 된 기분이였습니다. 
 
-[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
+성장하고 있는다는 것을 느끼고 나니 더욱더 욕심이 생기게 되어 다양한 공모전에도 나가보고 싶고, 더 넓은 시장이 궁금해지게 되었습니다. 
