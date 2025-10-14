@@ -5,7 +5,7 @@ date: 2025-09-26
 authors:
   - admin
 tags:
-  - Second Brain
+  - Contest
   - Markdown
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
