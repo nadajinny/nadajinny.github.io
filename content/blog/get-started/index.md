@@ -96,31 +96,23 @@ AI 툴을 활용하지 않은 채, 제한 시간 내에 프리코스와 유사�
 한 주차 한 주차를 지나오면서 제가 성장해나아갈 모습이 궁금해지는 느낌인 것 같습니다.
 
 
-## Inspiration
+## 각오
 
-[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
+각오라고 비장하게 말한다면 다소 웃기긴 하지만, 그래도 지금 생각나는 각오에 대해서 이야기해보도록 하겠습니다. 
 
-## Features
+우아한 테크코스는 저에게 취업과 졸업으로 나아가는 개발자의 개발 과정이 되어갈 것이라고 생각합니다. 
 
-> [!NOTE]+ Enhanced Markdown Support  
-> Hugo Blox now supports GitHub and Obsidian-style callouts! Use standard Markdown alert syntax like `> [!NOTE]` for better portability.
+그렇게 생각하기 때문에 더욱더 잘 해내서 합격하고 싶은 마음이 큽니다. 
 
-- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
-- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one-page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+천 여명이 신청한 것에 비해 제가 신청한 안드로이드 개발 영역에 대해서는 25명의 인원밖에 뽑지 않긴 하지만, 
 
-> [!WARNING]+ Version Requirements  
-> The new Markdown alert syntax requires Hugo v0.132.0 or later. Make sure you're using a compatible version!
+그래도 합격과 불합격이라는 최종적인 결과 넘어서 합격을 얻어내기 위해서 열심히 노력해볼 수 있는 지금 이 기간을 최대한 즐겨보려고 합니다. 
+
+물론, 합격하기 위해서 저는 프리코스를 최대한 열심히 해볼 생각입니다. 
+
+3학년 2학기, 24학점, 멘토링 3개, 공모전 5개라는 많이 힘든 현재 상황에서도 저는 학저을 다소 아쉽게 받을지언정 최대한 결과 수행 확률을 더 높이려고 합니다. 
+
+물론 이러고 불합격한다면 많이 부끄럽겠지만, 그럼에도 열심히 해왔다면 이를 바탕으로 다른 것도 더 열심히 하면 되는 것이니까요 :)
+
+이상! 저의 참여하게 된 각오에 대해서 작성해봤습니다. ㅎㅎ
 
