@@ -30,19 +30,18 @@ content_meta:
 
 [//]: # '[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/HugoBlox/hugo-blox-builder/main/starters/academic-cv/preview.png)](https://hugoblox.com)'
 
-### Get Started
 
-## Crowd-funded open-source software
+## 연구실을 들어가게 된 계기
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+개발에 대해서 욕심을 가지고 점차 공부해나아가기 시작하니 혼자서 공부하기에는 시야가 좁아질 수 밖에 없다는 것을 확연히 느꼈습니다. 
 
-### [❤️ Click here to become a sponsor and help support Hugo Blox's future ❤️](https://hugoblox.com/sponsor/)
+그 과정 속에서 제가 공부할 수 있는 방법에 대해서 찾아보기 시작했고, 전문적인 일까지 받아가면서 공부를 하기에는 연구실이 확실하게 도움이 될거라고 생각하게 되었습니다.
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://hugoblox.com/sponsor/) awesome rewards and extra features 🦄✨**
+그래서 연구실에 들어와서 제가 하고 싶은 일과 개발의 방향성에 대해서 진지하게 고민하는 시간을 가지고 이를 통해서 저의 향후 과정에 대해서 더 자세하게 고민해볼 수 있는 시간을 가질 수 있게 되었습니다.
 
-## Ecosystem
+## 연구실에서 하는 업무
 
-- **[Bibtex To Markdown](https://github.com/GetRD/academic-file-converter):** Automatically import publications from BibTeX
+현재 연구실에서는 개발 인력으로 
 
 ## Inspiration
 
