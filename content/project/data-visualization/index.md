@@ -47,7 +47,7 @@ content_meta:
 - **의료 어시스턴트 어플리케이션** - 진료가 어려운 사람들을 위한 진료 어시스턴트 어플리케이션 풀스택 작업을 진행하였습니다.
 - **건강 상태 확인 어플리케이션** - 사용자의 건강 상태에 대해서 분석할 수 있는 앱 어플리케이션 프론트 작업을 진행하였습니다.
 
-## Inspiration
+## 느낀 점
 
 [Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
 
@@ -80,9 +80,3 @@ content_meta:
 Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
 
 [Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
