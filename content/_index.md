@@ -45,12 +45,13 @@ sections:
   - block: collection
     content:
       title: "Projects"
-      # 아래 두 옵션으로 카드 레이아웃
-      filter:
-        tag: ""
-      count: 3       # 3개면 3, 9개면 9 (17번 항목과 연계)
+      filters:
+        folders:
+          - project
       sort_by: "date"
-      view: article-grid
+      view: article-list
+    design:
+      columns: 1
   - block: markdown
     content:
       title: "📍 Location"

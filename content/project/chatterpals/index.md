@@ -7,6 +7,7 @@ authors:
 tags:
   - Chrome Extension
   - Contest
+  - Project
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
