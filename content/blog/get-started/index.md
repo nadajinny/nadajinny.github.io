@@ -31,8 +31,8 @@ content_meta:
 ## Overview
 
 1. 우아한 테크코스가 뭐예요?
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+2. 왜 우아한 테크코스를 신청했을까?
+3. 이제 1주차를 시작하게 되었는데, 마음가짐과 각오는?
 
 [//]: # '[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/HugoBlox/hugo-blox-builder/main/starters/academic-cv/preview.png)](https://hugoblox.com)'
 
@@ -59,43 +59,60 @@ content_meta:
 
 정말 많은 인원이죠..
 
-## Crowd-funded open-source software
+이 많은 인원이 4주동안 과제를 직접 해결해가면서 과제 수행 능력을 확인하고, 이 능력과 자기소개서를 통해서 1차 합격자를 발표합니다. 
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+더하여 신기한 것은 우아한 테크코스의 최종 코딩 테스트는 우리가 아는 알고리즘 활용 문제 풀이가 아닌 프리코스에서 활동한 내용을 기반으로 진행된다는 점인데요. 
 
-### [❤️ Click here to become a sponsor and help support Hugo Blox's future ❤️](https://hugoblox.com/sponsor/)
+AI 툴을 활용하지 않은 채, 제한 시간 내에 프리코스와 유사한 과제를 수행하는 모습을 보고 코딩 테스트를 진행 후, 최종 합격자를 발표한다고 합니다. 
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://hugoblox.com/sponsor/) awesome rewards and extra features 🦄✨**
 
-## Ecosystem
 
-- **[Bibtex To Markdown](https://github.com/GetRD/academic-file-converter):** Automatically import publications from BibTeX
+## 왜 우아한 테크코스를 신청했을까?
 
-## Inspiration
+가장 큰 이유는 많은 사람들과 협업을 진행해보고 싶었다는 마음 때문이었습니다. 
 
-[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
+3학년이 되고나서 많은 공모전에 참여해보니, 다양한 사람들과 다양한 대회에 나가서 많은 것을 경험해보고 싶었습니다. 
 
-## Features
+팀플을 진행하면서 부딪혀보기도 하고, 팀의 기획을 위해서 서로 새벽 내내 회의를 진행해보기도 하는 모습이 멋져보였습니다. 
 
-> [!NOTE]+ Enhanced Markdown Support  
-> Hugo Blox now supports GitHub and Obsidian-style callouts! Use standard Markdown alert syntax like `> [!NOTE]` for better portability.
+이상하게 느껴지실 수 있지만 저의 대학 로망은
 
-- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
-- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one-page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+**밤샘 과제를 하고 나서 아침에 먹는 맥주**였습니다.
 
-> [!WARNING]+ Version Requirements  
-> The new Markdown alert syntax requires Hugo v0.132.0 or later. Make sure you're using a compatible version!
+그 만족감이 저에게는 즐거울 것이라고 느껴졌기 때문입니다!ㅋㅋㅋ (실제로 많은 친구들이 신기하게 보기도 했습니다.)
+
+이러한 이유로 제한 시간 내에 무언가를 해내야만 하는 상황은 저에게 힘들다기 보다는 챌린지처럼 느껴졌고, 
+
+그렇게 지금까지 열심히 오게 되었습니다. 
+
+따라서 저는 우아한 테크코스를 통해서 하나의 챌린지를 이루어내보고 싶어서 신청하게 되었습니다. 
+
+## 1주차를 겪은 느낌
+
+1주차 활동을 이제 시작하고 있는 입장으로서는 지금 굉장히 설레기만 하는데요. 
+
+아직 무서워하기에는 너무 많은 일들이 남아있다고 생각합니다. ㅎㅎ
+
+한 주차 한 주차를 지나오면서 제가 성장해나아갈 모습이 궁금해지는 느낌인 것 같습니다.
+
+
+## 각오
+
+각오라고 비장하게 말한다면 다소 웃기긴 하지만, 그래도 지금 생각나는 각오에 대해서 이야기해보도록 하겠습니다. 
+
+우아한 테크코스는 저에게 취업과 졸업으로 나아가는 개발자의 개발 과정이 되어갈 것이라고 생각합니다. 
+
+그렇게 생각하기 때문에 더욱더 잘 해내서 합격하고 싶은 마음이 큽니다. 
+
+천 여명이 신청한 것에 비해 제가 신청한 안드로이드 개발 영역에 대해서는 25명의 인원밖에 뽑지 않긴 하지만, 
+
+그래도 합격과 불합격이라는 최종적인 결과 넘어서 합격을 얻어내기 위해서 열심히 노력해볼 수 있는 지금 이 기간을 최대한 즐겨보려고 합니다. 
+
+물론, 합격하기 위해서 저는 프리코스를 최대한 열심히 해볼 생각입니다. 
+
+3학년 2학기, 24학점, 멘토링 3개, 공모전 5개라는 많이 힘든 현재 상황에서도 저는 학저을 다소 아쉽게 받을지언정 최대한 결과 수행 확률을 더 높이려고 합니다. 
+
+물론 이러고 불합격한다면 많이 부끄럽겠지만, 그럼에도 열심히 해왔다면 이를 바탕으로 다른 것도 더 열심히 하면 되는 것이니까요 :)
+
+이상! 저의 참여하게 된 각오에 대해서 작성해봤습니다. ㅎㅎ
 
