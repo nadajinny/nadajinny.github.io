@@ -16,6 +16,11 @@ pronouns: she/her
 status:
   icon: 😱
 
+emil: jinsun23007@gmail.com
+
+phone_number: 010-2952-1090
+
+
 # Is this the primary user of the site?
 superuser: true
 
@@ -31,19 +36,24 @@ organizations:
     url: https://csai.jbnu.ac.kr/csai/index.do
   - name: 의료인공지능 및 계산과학 연구실
     url: https://jbnu.macs.or.kr/about/
+  - name: 📧 jinsun23007@gmail.com
+    url: mailto:jinsun23007@gmail.com
+  - name: 📱 010-2952-1090
+    url: tel:+821029521090
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
     url: 'mailto:jinsun23007@gmail.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    label: jinsun23007@gmail.com
   - icon: brands/github
     url: https://github.com/nadajinny
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/jinsun-lee-9a806a364/
+  - icon: phone
+    url: 'tel:+821029521090'
+    label: 010-2952-1090
 
 interests:
   - Web Full-Stack
