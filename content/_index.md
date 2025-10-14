@@ -41,6 +41,16 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
+
+  - block: collection
+    content:
+      title: "Projects"
+      # 아래 두 옵션으로 카드 레이아웃
+      filter:
+        tag: ""
+      count: 3       # 3개면 3, 9개면 9 (17번 항목과 연계)
+      sort_by: "date"
+      view: article-grid
   - block: markdown
     content:
       title: "📍 Location"
