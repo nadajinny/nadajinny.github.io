@@ -24,9 +24,19 @@ Read&Lead는 책을 매개로 **도시의 역사·문화·장소**를 연결하�
 
 ## Overview
 
-1. 우아한 테크코스가 뭐예요?
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+1. 제안 배경과 필요성
+2. 서비스 비전
+3. 핵심 가치 제안
+4. 주요기능
+5. 활용 데이터 & API
+6. 대상 고객
+7. 우선 적용 지역 
+8. 기술 개요
+9. 기대 효과
+10. 단계별 로드맵
+11. 성공지표
+12. 운영·윤리 고려
+13. 결론
 
 
 
