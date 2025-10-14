@@ -49,9 +49,19 @@ sections:
         folders:
           - project
       sort_by: "date"
-      view: article-list
+      view: card
     design:
-      columns: 1
+      columns: 3
+  - block: collection
+    content:
+      title: "Blog"
+      filters:
+        folders:
+          - blog
+      sort_by: "date"
+      view: card
+    design:
+      columns: 3
   - block: markdown
     content:
       title: "📍 Location"
