@@ -12,10 +12,10 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
+    local_business_type: 'Jeonbuk National University - Leejinsun'
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: '전북대학교 컴퓨터공학부 포트폴리오 · AI/모바일/웹 프로젝트'
+    twitter: 'nadajinny'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -25,6 +25,7 @@ marketing:
   verification:
     google: ''
     baidu: ''
+
 
 # Site header
 header:
