@@ -11,125 +11,72 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-Create a personal knowledge base and share your knowledge with your peers.
 
-Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
+## 카카오 관광데이터 공모전을 준비하며
 
-Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.
+카카오 관광데이터 공모전을 준비하면서, 단순히 기능 구현을 넘어 **‘데이터로 감성을 전달하는 여행 서비스’**에 대해 진지하게 고민할 수 있었습니다.
 
-Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.
+이번 프로젝트는 ‘문학과 여행의 융합’을 주제로, 책 속의 공간과 현실의 장소를 연결하는 AI 기반 문학 여행 플랫폼을 만드는 과정이었습니다.
 
-## Mindmaps
+## ✍️ 아이디어의 출발점
 
-Hugo Blox supports a Markdown extension for mindmaps.
+처음엔 단순히 “문학 작품 속 장소를 찾아가는 여행”을 떠올렸지만, 데이터를 붙이기 시작하면서 생각이 점점 확장되었습니다.
 
-With this open format, can even edit your mindmaps in other popular tools such as Obsidian.
+**“사용자가 책을 입력하면, 그 책의 배경지를 중심으로 여행 코스를 제안해주면 어떨까?”**
 
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
+**“여행 중 특정 장소에 도달하면, 그곳이 등장하는 문장을 바로 들을 수 있으면 어떨까?”**
 
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
+이런 상상을 실현하기 위해 Kakao 지도, 문화공공데이터, 도서 API 등을 조합해 나갔습니다.
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-</code>
-</pre>
-</div>
+데이터 하나하나가 스토리를 만들어주는 느낌이었고, 단순한 기능 구현이 아니라 ‘경험을 설계한다’는 감각을 처음으로 느꼈습니다.
 
-renders as
+## ⚙️ 구현 과정에서의 고민
+가장 큰 도전은 데이터 간 연결성 확보였습니다.
 
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
+도서 정보, 지역 관광지, 공연·전시 데이터 등 출처가 모두 달라서 포맷이 제각각이었거든요.
 
-Anh here's a more advanced mindmap with formatting, code blocks, and math:
+이를 자연스럽게 엮기 위해 ‘키워드 기반 매칭’과 ‘좌표 기반 추천’을 병행했습니다.
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-</code>
-</pre>
-</div>
+또한 사용자 위치 기반 알림 기능을 구현하면서, GPS 정밀도와 API 호출 타이밍을 조정하는 게 까다로웠습니다.
 
-renders as
+이 과정에서 “기술적인 완성도보다, 사용자 경험이 더 중요하다”는 걸 배웠습니다.
 
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
+결국 기술은 감동을 전달하기 위한 수단이라는 걸 깨달았습니다.
 
-## Highlighting
+## 💡 협업과 기획의 확장
 
-<mark>Highlight</mark> important text with `mark`:
+공모전은 단순히 코딩 실력만으로 되는 게 아니라,
 
-```html
-<mark>Highlighted text</mark>
-```
+기획력, 데이터 이해력, 그리고 스토리텔링 능력이 모두 필요한 종합 예술이라는 걸 체감했습니다.
 
-## Callouts
+특히 “문학 감성을 데이터로 구현한다”는 주제는 추상적이라,
 
-Use [callouts](https://docs.hugoblox.com/reference/markdown/#callouts) (aka _asides_, _hints_, or _alerts_) to draw attention to notes, tips, and warnings.
+팀원들과 많은 토론을 거쳐 사용자 여정을 시각적으로 정리하고,
 
-Use the `> [!NOTE]` syntax to create a callout.
+각 기능을 연결하는 **플로우 차트(연동 구조도)**를 직접 설계했습니다.
 
-```markdown
-> [!NOTE]
-> A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-```
+## 🌿 느낀 점과 배운 점
 
-renders as
+공공데이터의 잠재력을 체감했습니다.
 
-> [!NOTE]
-> A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+API 하나로도 수많은 콘텐츠를 만들 수 있고, 연결 방식에 따라 완전히 새로운 경험을 줄 수 있다는 걸 느꼈습니다.
 
-Or use the `warning` callout type so your readers don't miss critical details:
+기획과 기술의 균형이 중요하다는 걸 배웠습니다.
 
-> [!WARNING]
-> A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+기능이 많다고 좋은 게 아니라, 스토리와 감정이 통할 때 진짜 ‘여행’이 완성된다는 걸 깨달았습니다.
 
-## Did you find this page helpful? Consider sharing it 🙌
+무엇보다, 내가 좋아하는 문학과 기술을 결합할 수 있다는 기쁨이 컸습니다.
+
+공모전이 끝나도 계속 발전시키고 싶은 주제라고 느꼈습니다.
+
+## 🚀 마무리하며
+
+이번 카카오 관광데이터 공모전은 단순한 개발 경험이 아니라,
+
+“데이터를 통해 사람의 감성을 움직이는 서비스란 무엇인가”를 고민하게 만든 여정이었습니다.
+
+여행을 떠날 때, 책 한 권의 문장으로 시작해
+
+그 문장이 실제 공간에서 다시 울리는 순간—
+
+그 감동을 기술로 구현하는 게 우리의 목표였습니다.
