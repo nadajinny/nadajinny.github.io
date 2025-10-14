@@ -13,6 +13,9 @@ authors:
 
 tags:
   - Contest
+  - Web
+  - Android
+  - IOS
 
 content_meta:
   trending: true
