@@ -1,6 +1,6 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
+title: 🎉 우아한 테크코스 프리코스를 시작
+summary: 우아한 테크코스 프리코스를 시작하게 되다.
 date: 2023-10-27
 
 # Featured image
@@ -10,18 +10,33 @@ image:
 
 authors:
   - admin
-  - Ted
 
 tags:
   - Academic
-  - Hugo Blox
-  - Markdown
 
 content_meta:
   trending: true
 ---
 
-Welcome 👋
+안녕하세요 👋
+
+두 번째 작성글로 찾아오게 된 이진선입니다!
+
+제가 최근 10월 10일까지 신청 마감일자였던 우아한 테크코스에 지원서를 넣었는데요.
+
+우아한 테크코스는 
+
+- **서류접수** : 2025년 9월 29일(월) 오후 3시 ~ 10월 10일(금) 오전 10시
+
+- **프리코스** : 2025년 10월 14일(화) ~ 11월 17일(월)
+
+- **1차 합격자 발표** : 2025년 12월 29일(월) 오후 3시
+
+- **최종 코딩 테스트** : 2026년 1월 10일(토) / 오프라인, 장소는 추후 안내 예정
+
+- **최종 합격자 발표** : 2026년 1월 23일(금) 오후 3시
+
+- **본코스 시작** : 2026년 2월 24일(화) 오전 10시
 
 {{< toc mobile_only=true is_open=true >}}
 
@@ -88,14 +103,3 @@ As a token of appreciation for sponsoring, you can **unlock [these](https://hugo
 > [!WARNING]+ Version Requirements  
 > The new Markdown alert syntax requires Hugo v0.132.0 or later. Make sure you're using a compatible version!
 
-## Themes
-
-Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
-
-[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
