@@ -1,8 +1,8 @@
 ---
-title: Readdddddd&Lead
-summary: 2025 카카오 관광 데이터 공모전 
+title: Read&Lead
+summary: 2025 Kakao Tourism Data Contest
 date: 2025-09-27
-
+draft: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
@@ -22,172 +22,173 @@ content_meta:
   trending: true
 ---
 
-Read&Lead는 책을 매개로 **도시의 역사·문화·장소**를 연결하는, AI 기반 **문학 테마 여행 & 실감형 문화 체험·공유 플랫폼**입니다.
+Read&Lead is an AI-based **literary-themed travel & immersive cultural experience–sharing platform** that connects a city’s **history, culture, and places** through books.
 
 {{< toc mobile_only=true is_open=true >}}
 
 ## Overview
 
-1. 제안 배경과 필요성
-2. 서비스 비전
-3. 핵심 가치 제안
-4. 주요기능
-5. 활용 데이터 & API
-6. 대상 고객
-7. 우선 적용 지역 
-8. 기술 개요
-9. 기대 효과
-10. 단계별 로드맵
-11. 성공지표
-12. 운영·윤리 고려
-13. 결론
+1. Background & Need
+2. Service Vision
+3. Core Value Proposition
+4. Key Features
+5. Data & APIs Used
+6. Target Customers
+7. Initial Target Regions
+8. Technical Overview
+9. Expected Impact
+10. Phased Roadmap
+11. Success Metrics
+12. Operations & Ethics
+13. Conclusion
 
 
 
+### Background & Need
 
-### 제안 배경과 필요성
+- Trends like “Text-hip” and the **Seoul International Book Fair** are strengthening the movement to enjoy **books as trendy cultural content**.
+- Influenced by works set in **real/historic spaces** (e.g., author Han Kang), demand is growing for organically linking works–spaces–travel.
+- However, there is a lack of mechanisms to seamlessly connect the reading experience with the **actual settings of the works**, and non-metropolitan cities need **revitalized tourism content**.
+- This project uses **books as the starting point** to integrate travel, experiences, and sharing, thereby supporting **regional cultural branding** and **reframing urban identity**.
 
-* ‘텍스트힙’, ‘서울국제도서전’ 등으로 **책을 트렌디한 문화 콘텐츠로 향유**하는 흐름이 강화되고 있습니다.
-* 한강 작가 등 **현실·역사 공간을 배경**으로 한 작품의 영향으로, 작품-공간-여행이 유기적으로 연결되는 수요가 증가했습니다.
-* 그러나 독서 경험을 **작품의 실제 배경 공간**과 매끄럽게 잇는 장치가 부족하며, 지방 도시는 **노후화된 관광 콘텐츠 재구성**이 필요한 상황입니다.
-* 본 프로젝트는 **책을 출발점**으로 여행·체험·공유를 통합하여 **지역 문화 브랜딩**과 **도시 정체성 재구성**을 지원합니다.
 
+### Service Vision
 
-### 서비스 비전
+> **“Turn the experience of reading into the experience of walking.”**
+> An **experience-expanding travel platform** where readers encounter beloved lines in real spaces and collect/share that emotion as content and badges.
 
-> **“읽는 경험을 걷는 경험으로.”**
-> 독자가 사랑한 문장을 실제 공간에서 만나고, 그 감동을 콘텐츠와 뱃지로 수집·공유하는 **경험 확장형 여행 플랫폼**.
 
+### Core Value Proposition
 
-### 핵심 가치 제안 (Value Proposition)
+1. **Literature-centered journey design**: Curate destinations from books to deepen emotional immersion.
+2. **Real-time location interaction**: Upon arrival, automatically provide quotes, author notes, and background context.
+3. **Collectible map (Gamification)**: Earn **book-cover and literary badges** at each stop → build your own literary map.
+4. **Seamless shift to creation/sharing**: “Four-cut” photo templates, photo+quote cards, and auto-scrap turn **personal records into cultural content**.
+5. **Expandable content graph**: Extend from literature to **film/drama/musicals/local cuisine** as a multi-domain graph.
 
-1. **문학 중심의 여정 설계**: 도서를 출발점으로 여행지를 큐레이션하여 감성적 몰입을 강화.
-2. **실시간 위치 상호작용**: 현장 도달 시 인용문·작가 노트·배경 설명이 자동 제공되는 체험.
-3. **수집형 지도(Gamification)**: 방문지마다 **책 표지·문학 배지** 획득 → 나만의 문학 지도 형성.
-4. **생산·공유의 손쉬운 전환**: 인생네컷 템플릿, 사진+문장 카드, 자동 스크랩으로 **개인의 기록을 문화 콘텐츠로**.
-5. **확장 가능한 콘텐츠 그래프**: 문학에서 영화·드라마·뮤지컬·향토음식까지 **멀티 도메인 연동**.
 
+### Core Value Proposition
 
-### 주요 기능
+1. **Literature-centered journey design**: Curate destinations from books to deepen emotional immersion.
+2. **Real-time location interaction**: Upon arrival, automatically provide quotes, author notes, and background context.
+3. **Collectible map (Gamification)**: Earn **book-cover and literary badges** at each stop → build your own literary map.
+4. **Seamless shift to creation/sharing**: “Four-cut” photo templates, photo+quote cards, and auto-scrap turn **personal records into cultural content**.
+5. **Expandable content graph**: Extend from literature to **film/drama/musicals/local cuisine** as a multi-domain graph.
 
-**1) 도서 기반 AI 여행 큐레이션**
+### Key Features
 
-* 도서 메타(ISBN/저자/키워드)와 지역 문화·랜드마크를 **벡터 임베딩**으로 표현, **유사도 매칭**으로 추천.
-* “책 → 장소/코스/전시/행사” 또는 “여행지 → 연관 도서” 양방향 추천 지원.
+**1) Book-based AI Travel Curation**
 
-**2) 위치 기반 문학 체험 (필수)**
+* Represent book metadata (ISBN/author/keywords) and local culture/landmarks with **vector embeddings** and recommend via **similarity matching**.
+* Support bidirectional suggestions: “Book → Places/Courses/Exhibitions/Events” or “Destination → Related Books.”
 
-* GPS/지도 API와 지오펜싱을 활용해 **도달 이벤트** 발생 시 인용문·오디오·배경 설명을 푸시.
-* 현장에서 **문장 낭독, 장면 요약, 작가 인터뷰** 등 몰입형 경험 제공.
+**2) Location-based Literary Experience (Essential)**
 
-**3) 책–도시 수집형 지도 (2순위)**
+* Use GPS/Maps API and geofencing to trigger **arrival events** that push quotes/audio/background explanations.
+* Provide immersive on-site experiences like **line narration, scene summaries, and author interviews**.
 
-* 방문 시 **책 표지·작가 사인·특별 배지** 수집, 희귀도·시즌 배지 도입.
-* **문학 지도**에서 여정 시각화 및 친구와 비교.
+**3) Book–City Collectible Map (Priority #2)**
 
-**4) 인생네컷 문학 여행 콘텐츠 (3순위)**
+* Collect **book covers/author autographs/special badges** upon visits; introduce rarity/seasonal badges.
+* Visualize journeys on the **literary map** and compare with friends.
 
-* 상단 **책 속 문장**, 하단 **현장 사진** 자동 합성 템플릿. 해시태그·위치·도서 메타 자동 삽입.
+**4) Four-cut Literary Travel Content (Priority #3)**
 
-**5) SNS 연동 스크랩 (여건 시)**
+* Auto-composition template with the **book line on top** and **on-site photo below**. Auto-insert hashtags/location/book metadata.
 
-* 인스타그램/블로그 연동으로 사진·문장·위치를 자동 클리핑 → **문학 여행 앨범** 생성.
+**5) SNS-linked Scrap (If feasible)**
 
-**6) 공연·전시·추천 도서 연계 (부가)**
+* Link Instagram/blog to auto-clip photos/quotes/locations → create a **literary travel album**.
 
-* 일정·위치 기반으로 **공연/전시/북토크** 추천, 테마별 **함께 읽을 책** 제안.
+**6) Performances/Exhibitions/Recommended Books (Add-on)**
 
-**7) 콘텐츠 도메인 확장 (부가)**
+* Recommend **performances/exhibitions/book talks** by schedule/location; suggest themed **books to read together**.
 
-* 영화·드라마 촬영지, 뮤지컬 배경, 향토음식·역사 장소까지 **코스 확장**.
+**7) Content Domain Expansion (Add-on)**
 
+* Expand courses to **film/drama locations, musical settings, local cuisine, and historical sites**
 
 
-### 활용 데이터 & API (예시)
 
-| 영역  | API/데이터                              | 활용                              |
-| --- | ------------------------------------ | ------------------------------- |
-| 도서  | 국립중앙도서관 도서추천 API, Kakao 책 검색         | 도서 메타/연관 도서, 인용문 매칭             |
-| 관광  | Tour API(연관 관광지/오디오가이드/사진/방문자수/빅데이터) | 큐레이션, 현장 오디오, 배지 이미지, 인기 기반 가중치 |
-| 유산  | 국가유산청(위치/행사/무형문화재)                   | 유산 기반 배지/현장 해설                  |
-| 문화  | 문화체육관광부 공연·전시·추천도서, KOPIS            | 지역 일정·장르 기반 추천                  |
-| 지도  | Kakao 지도 API                         | 지오펜싱, 길찾기, 문학 지도 시각화            |
-| SNS | Instagram API, 다음 검색 API             | 자동 스크랩/공유, 연관 포스트 추천            |
+### Data & API Used(Examples)
 
-> 추가로, 지역 한정 검색(전북/전주/전북 축제·향토음식 등)과 외국인 대상 오디오·히스토리 안내까지 확장 가능.
+| Area     | API/Data                                                               | Use                                                         |
+| -------- | ---------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Books    | National Library of Korea Recommendation API, Kakao Book Search        | Book metadata/related books, quote matching                 |
+| Tourism  | Tour API (related attractions/audio guides/photos/visitors/big data)   | Curation, on-site audio, badge images, popularity weighting |
+| Heritage | Cultural Heritage Administration (location/events/intangible heritage) | Heritage-based badges/on-site explanations                  |
+| Culture  | MCST performances/exhibitions/recommended books, KOPIS                 | Recommendations by local schedule/genre                     |
+| Maps     | Kakao Maps API                                                         | Geofencing, routing, literary map visualization             |
+| SNS      | Instagram API, Daum Search API                                         | Auto-scrap/sharing, related post recommendations            |
 
+> Additionally, expand to region-limited searches (Jeonbuk/Jeonju/festivals/local cuisine, etc.) and audio/history guides for foreign visitors.
 
-### 대상 고객
 
-* **문학 애호가·체험형 소비자(20~40대 여성 중심)**: 독립서점·필사·문장 공유에 적극적인 층.
-* **취향 맞춤 여행·SNS 중심 감성 소비자**: 인생네컷·큐레이션을 **자기 브랜딩** 도구로 활용하는 인플루언서.
+### Target Customers
 
+* **Literature lovers & experience-oriented consumers (women in their 20s–40s focus)**: Active in independent bookstores, transcription, and quote sharing.
+* **Taste-driven travelers & emotion-led SNS consumers**: Use four-cut photos/curation as **self-branding** tools.
 
 
-### 우선 적용 지역 (파일럿)
+### Initial Target Regions (Pilot)
 
-* **전주**: 『혼불』, 최명희문학관, 전통문화자원·영화지 연계.
-* **통영**: 김춘수·유치환 등 문학도시 정체성.
-* **광주**: 『소년이 온다』와 5·18 역사 공간.
-* **제주**: 『작별하지 않는다』, 4·3 평화기념관·박물관 연계.
+* **Jeonju**: *Hoonbul*, Choi Myeong-hee Literature Museum, links to traditional cultural assets and film sites.
+* **Tongyeong**: Literary city identity with Kim Chun-soo, Yu Chi-hwan, etc.
+* **Gwangju**: *Human Acts* and the May 18 historical spaces.
+* **Jeju**: *To the Warm Horizon* (alt: *I Do Not Bid Farewell*), linked to the 4·3 Peace Memorial/ museums.
 
 
+### Technical Overview
 
-### 기술 개요
+* **Recommendation**: SBERT/KoBERT embeddings + FAISS/Elasticsearch similarity search, complemented by collaborative filtering.
+* **Geo-services**: Geofencing (radius/dwell/re-entry rules), Haversine distance calculations.
+* **Content Engine**: Mapping places → quotes/audio/images; ranking by season/time/preferences.
+* **Database**: **Graph/relational hybrid** for book–place–event (Neo4j + PostgreSQL recommended).
+* **Backend**: FastAPI/Node, OAuth2 (SNS), cache (Redis), message queue (Celery/RQ).
+* **App/Web**: React/React Native, Kakao Map SDK, push (Firebase/OneSignal).
 
-* **추천**: SBERT/KoBERT 임베딩 + FAISS/Elasticsearch 유사도 검색, 협업 필터링 보완.
-* **지오서비스**: 지오펜싱(반경·체류·재입장 규칙), Haversine 거리 계산.
-* **콘텐츠 엔진**: 장소→문장/오디오/이미지 매핑, 계절·시간·선호 기반 랭킹.
-* **데이터베이스**: 도서–장소–이벤트 **그래프/관계형 하이브리드**(Neo4j + PostgreSQL 권장).
-* **백엔드**: FastAPI/Node, OAuth2(SNS), 캐시(Redis), 메시지큐(Celery/RQ).
-* **앱/웹**: React/React Native, 카카오맵 SDK, 푸시(Firebase/OneSignal).
 
+### Expected Impact
 
+* **Regional cultural branding**: Reinterpret urban identity with literature at the core and upgrade tourism content.
+* **Increased visits/stay**: Real-time experiences, collectible maps, and performance linkages boost **revisits/time-on-site**.
+* **UGC expansion**: Automated four-cut/scrap enables **organic promotion** and virality.
+* **Data assetization**: Build a city cultural database via a **book–place–event knowledge graph**.
 
-### 기대 효과
 
-* **지역 문화 브랜딩**: 문학을 축으로 도시 정체성 재해석 및 관광 콘텐츠 고도화.
-* **방문·체류 증대**: 실시간 체험·수집형 지도·공연 연계로 **재방문/체류시간** 증가.
-* **UGC 확산**: 인생네컷/스크랩 자동화로 **자연발생 홍보**와 바이럴.
-* **데이터 자산화**: 도서–장소–행사 **지식 그래프**로 도시 문화 데이터베이스 축적.
+### Phased Roadmap (6 + 6 months)
 
+**Phase 1 (0–6M)**: Jeonju Pilot
 
+* Core features: (1) Book-based curation (2) On-site experience (3) Collectible map (beta)
+* Data: Integrate Jeonju’s key literature/heritage/exhibition APIs; build baseline graph
+* Metrics: MAU, arrival notification CTR, badge count, pilot NPS
 
-### 단계별 로드맵 (6+6개월)
 
-**Phase 1 (0–6M)**: 전주 파일럿
+**Phase 2 (7–12M)**: Expand to Gwangju · Tongyeong · Jeju
 
-* 핵심기능: ①도서 기반 큐레이션 ②위치 체험 ③수집형 지도(베타)
-* 데이터: 전주 핵심 문학·유산·전시 API 연동, 베이스라인 그래프 구축
-* 지표: MAU, 도달 알림 CTR, 배지 획득 수, 파일럿 NPS
+* Feature expansion: Four-cut/SNS scrap, performance/exhibition recommendations, multilingual support
+* Partners: MOUs with local governments/tourism foundations/regional bookstores/literature museums; launch travel packages
+* Metrics: City-wise dwell time, course completion rate, partnership revenue
 
-**Phase 2 (7–12M)**: 광주·통영·제주 확장
 
-* 기능 확장: 인생네컷·SNS 스크랩, 공연/전시 추천, 다국어 지원
-* 파트너: 지자체/관광재단/지역서점/문학관 협약, 여행사 패키지 출시
-* 지표: 도시별 체류시간, 코스 완주율, 파트너십 수익
+### Success Metrics (KPI)
 
+* **Recommendation accuracy/satisfaction** (save/completion rate), **on-site notification engagement** (audio/quote open rate)
+* **Badge acquisition/map shares**, **UGC volume/SNS reach**
+* **Local partner revenue/package sales**, **return visit rate**
 
 
-### 성공 지표(KPI)
+### Operations & Ethics
 
-* **추천 정확도/만족도**(저장·완주율), **현장 알림 참여율**(오디오/인용 열람률)
-* **배지 획득·지도 공유 수**, **UGC 생성량·SNS 도달수**
-* **지역 파트너 매출/패키지 판매량**, **재방문율**
+* **Copyright/Quotations**: Partnerships with publishers/rightsholders; manage lawful quotation scope and storage.
+* **Personal Data**: Minimize/anonimize location data; consent/opt-out mechanisms.
+* **Historical/Memorial Sites**: Adhere to tone/copy guidelines for remembrance spaces.
 
 
+### One-Page Summary (Executive Summary)
 
-### 운영·윤리 고려
-
-* **저작권/인용**: 출판사·저작권자와의 제휴, 합법적 인용 범위·스토리지 관리.
-* **데이터 개인정보**: 위치 데이터 최소 수집·익명화, 동의·옵트아웃 체계.
-* **역사/기억 장소**: 추모·기억 공간의 **톤·문구 가이드라인** 준수.
-
-
-
-### 한 페이지 요약 (Executive Summary)
-
-* 책을 시작점으로 여행·체험·공유를 **통합**하는 플랫폼.
-* **AI 큐레이션 + 위치 상호작용 + 수집형 지도**로 차별화.
-* 전주 파일럿 → 광주·통영·제주 확장, 지자체·여행사 파트너십.
-* 지역 문화 브랜딩과 데이터 자산을 동시 달성.
+* A platform that **integrates** travel/experience/sharing with books as the starting point.
+* Differentiation via **AI curation + location interaction + collectible maps**.
+* Jeonju pilot → expansion to Gwangju/Tongyeong/Jeju; partnerships with municipalities/tourism bodies/travel agencies.
+* Achieve both regional cultural branding and data assetization.
