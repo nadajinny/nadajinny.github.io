@@ -1,6 +1,6 @@
 ---
-title: 🎉 우아한 테크코스 프리코스를 시작go
-summary: 우아한 테크코스 프리코스를 시작하게 되다.
+Title: 🎉 Starting the Woowa Tech Course Precourse
+Summary: Beginning my journey in the Woowa Tech Course Precourse.
 date: 2023-10-27
 
 # Featured image
@@ -16,103 +16,103 @@ tags:
 
 content_meta:
   trending: true
+
+draft: false
 ---
 
-안녕하세요 👋
+Hello 👋
+This is Jinsun Lee, back with my second post!
 
-두 번째 작성글로 찾아오게 된 이진선입니다!
+Recently, I submitted my application for the Woowa Tech Course, which had its deadline on October 10th.
 
-제가 최근 10월 10일까지 신청 마감일자였던 우아한 테크코스에 지원서를 넣었는데요.
-
-그래서 이번 글에서는 우아한 테크코스와 참여하게 된 이유에 대해서 작성해볼까 합니다.
+In this post, I’d like to share what the Woowa Tech Course is, why I decided to join, and my mindset as I begin the first week of the precourse.
 
 {{< toc mobile_only=true is_open=true >}}
 
 ## Overview
 
-1. 우아한 테크코스가 뭐예요?
-2. 왜 우아한 테크코스를 신청했을까?
-3. 이제 1주차를 시작하게 되었는데, 마음가짐과 각오는?
+1. What is the Woowa Tech Course?
+2. Why did I apply for it?
+3. How do I feel as I start Week 1?
 
 [//]: # '[![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.](https://raw.githubusercontent.com/HugoBlox/hugo-blox-builder/main/starters/academic-cv/preview.png)](https://hugoblox.com)'
 
-### 우아한 테크코스란?
+### What is the Woowa Tech Course?
 
+The Woowa Tech Course consists of the following stages:
 
-우아한 테크코스는 
+- Application Period: September 29, 2025 (Mon) 3 PM – October 10, 2025 (Fri) 10 AM
+- Precourse: October 14, 2025 (Tue) – November 17, 2025 (Mon)
+- First Round Results: December 29, 2025 (Mon) 3 PM
+- Final Coding Test: January 10, 2026 (Sat), offline (location to be announced)
+- Final Results: January 23, 2026 (Fri) 3 PM
+- Main Course Start: February 24, 2026 (Tue) 10 AM
 
-- **서류접수** : 2025년 9월 29일(월) 오후 3시 ~ 10월 10일(금) 오전 10시
+The Precourse is open to everyone who submits an application.
 
-- **프리코스** : 2025년 10월 14일(화) ~ 11월 17일(월)
+Currently, there are over a thousand participants in the Discord server, myself included!
 
-- **1차 합격자 발표** : 2025년 12월 29일(월) 오후 3시
+It’s an impressive number of people.
 
-- **최종 코딩 테스트** : 2026년 1월 10일(토) / 오프라인, 장소는 추후 안내 예정
+Over the course of four weeks, participants complete assignments to demonstrate their skills.
 
-- **최종 합격자 발표** : 2026년 1월 23일(금) 오후 3시
+Based on their performance and personal statements, the first-round results are announced.
 
-- **본코스 시작** : 2026년 2월 24일(화) 오전 10시
+What’s particularly interesting is that the final coding test is not a traditional algorithm exam.
 
-다음과 같은 과정으로 이루어져있는데요. 
-
-우아한 테크코스에서의 프리코스는 서류 접수를 한 모든 인원이 참여하는 활동으로, 현재 제가 포함되어있는 디스코드 서버에 총 천명이 넘는 참여자가 활동 중입니다!
-
-정말 많은 인원이죠..
-
-이 많은 인원이 4주동안 과제를 직접 해결해가면서 과제 수행 능력을 확인하고, 이 능력과 자기소개서를 통해서 1차 합격자를 발표합니다. 
-
-더하여 신기한 것은 우아한 테크코스의 최종 코딩 테스트는 우리가 아는 알고리즘 활용 문제 풀이가 아닌 프리코스에서 활동한 내용을 기반으로 진행된다는 점인데요. 
-
-AI 툴을 활용하지 않은 채, 제한 시간 내에 프리코스와 유사한 과제를 수행하는 모습을 보고 코딩 테스트를 진행 후, 최종 합격자를 발표한다고 합니다. 
+Instead, it evaluates participants on a task similar to those in the precourse — and it must be completed without using AI tools within a limited time frame.
 
 
 
-## 왜 우아한 테크코스를 신청했을까?
+## Why I Applied for the Woowa Tech Course
 
-가장 큰 이유는 많은 사람들과 협업을 진행해보고 싶었다는 마음 때문이었습니다. 
+The biggest reason was that I wanted to collaborate with many different people.
 
-3학년이 되고나서 많은 공모전에 참여해보니, 다양한 사람들과 다양한 대회에 나가서 많은 것을 경험해보고 싶었습니다. 
+As a junior, I began participating in various competitions and realized how rewarding it was to work with others, sharing ideas and building something together.
 
-팀플을 진행하면서 부딪혀보기도 하고, 팀의 기획을 위해서 서로 새벽 내내 회의를 진행해보기도 하는 모습이 멋져보였습니다. 
+I admired teams who stayed up all night planning and coding together —
+and, oddly enough, one of my college dreams was to experience that **“beer after an all-nighter”** satisfaction. 🍺
 
-이상하게 느껴지실 수 있지만 저의 대학 로망은
+It might sound funny, but I always thought that would feel incredibly fulfilling! (and yes, my friends found it a bit strange too 😂)
 
-**밤샘 과제를 하고 나서 아침에 먹는 맥주**였습니다.
+So for me, working under time pressure isn’t stressful — it feels like a challenge.
 
-그 만족감이 저에게는 즐거울 것이라고 느껴졌기 때문입니다!ㅋㅋㅋ (실제로 많은 친구들이 신기하게 보기도 했습니다.)
+That’s what led me to apply for the Woowa Tech Course: to take on that kind of meaningful challenge.
 
-이러한 이유로 제한 시간 내에 무언가를 해내야만 하는 상황은 저에게 힘들다기 보다는 챌린지처럼 느껴졌고, 
+## Reflections After Week 1
 
-그렇게 지금까지 열심히 오게 되었습니다. 
+Now that I’ve started the first week of the precourse, I feel nothing but excitement.
 
-따라서 저는 우아한 테크코스를 통해서 하나의 챌린지를 이루어내보고 싶어서 신청하게 되었습니다. 
+There’s still so much ahead that it feels too early to be nervous —
 
-## 1주차를 겪은 느낌
-
-1주차 활동을 이제 시작하고 있는 입장으로서는 지금 굉장히 설레기만 하는데요. 
-
-아직 무서워하기에는 너무 많은 일들이 남아있다고 생각합니다. ㅎㅎ
-
-한 주차 한 주차를 지나오면서 제가 성장해나아갈 모습이 궁금해지는 느낌인 것 같습니다.
+but I’m looking forward to seeing how much I can grow week by week
 
 
-## 각오
+## My Determination
 
-각오라고 비장하게 말한다면 다소 웃기긴 하지만, 그래도 지금 생각나는 각오에 대해서 이야기해보도록 하겠습니다. 
+It might sound a bit dramatic to call it “determination,” but I’ll share my mindset honestly.
 
-우아한 테크코스는 저에게 취업과 졸업으로 나아가는 개발자의 개발 과정이 되어갈 것이라고 생각합니다. 
+For me, the Woowa Tech Course represents a major step toward becoming a professional developer —
+a bridge between university life and employment.
 
-그렇게 생각하기 때문에 더욱더 잘 해내서 합격하고 싶은 마음이 큽니다. 
+That’s why I truly want to do my best and pass.
 
-천 여명이 신청한 것에 비해 제가 신청한 안드로이드 개발 영역에 대해서는 25명의 인원밖에 뽑지 않긴 하지만, 
+Although over 1,000 people applied, only 25 will be selected for the Android development track I chose.
 
-그래도 합격과 불합격이라는 최종적인 결과 넘어서 합격을 얻어내기 위해서 열심히 노력해볼 수 있는 지금 이 기간을 최대한 즐겨보려고 합니다. 
+Even so, rather than focusing only on the outcome,
 
-물론, 합격하기 위해서 저는 프리코스를 최대한 열심히 해볼 생각입니다. 
+I want to enjoy this time fully and give my all throughout the process.
 
-3학년 2학기, 24학점, 멘토링 3개, 공모전 5개라는 많이 힘든 현재 상황에서도 저는 학저을 다소 아쉽게 받을지언정 최대한 결과 수행 확률을 더 높이려고 합니다. 
+I’m currently juggling a tough schedule —
 
-물론 이러고 불합격한다면 많이 부끄럽겠지만, 그럼에도 열심히 해왔다면 이를 바탕으로 다른 것도 더 열심히 하면 되는 것이니까요 :)
+3rd year, 2nd semester, 24 credits, 3 mentoring programs, and 5 competitions —
 
-이상! 저의 참여하게 된 각오에 대해서 작성해봤습니다. ㅎㅎ
+so even if my grades take a small hit,
 
+I’m determined to maximize my chances of success in this course.
+
+Of course, if I don’t pass, it’ll be disappointing,
+
+but I believe all the effort I’ve put in will still lead me somewhere better.
+
+So, that’s my mindset and motivation as I begin this journey. 😄
