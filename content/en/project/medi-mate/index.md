@@ -1,8 +1,8 @@
 ---
 title: Medi-Mate
-summary: 2025 SW·AI 경진대회 은상
+summary: 2025 SW·AI Competition Silver Award
 date: 2025-10-14
-
+draft: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
@@ -27,160 +27,159 @@ content_meta:
 {{< toc mobile_only=true is_open=true >}}
 
 ## Overview
-1. 프로젝트 개요
-2. 문제 정의
-3. 해결 방향 
-4. 시스템 구성 
-5. 기술 스택
-6. AI 후처리 및 정제 전략
-7. 프로젝트 일정 및 역할 분담
-8. 사회적 가치와 기대효과
-9. 시연 시나리오
-10. 결론
+1. Project Overview
+2. Problem Definition
+3. Solution Approach
+4. System Architecture
+5. Tech Stack
+6. AI Post-Processing and Refinement Strategy
+7. Social Value and Expected Impact
+8. Demonstration Scenario
+9. Conclusion
 
+### 1️⃣ Project Overview
 
-### 1️⃣ 프로젝트 개요
+In modern healthcare settings, patients who have difficulty communicating verbally (such as those with hearing or speech impairments, the elderly, or foreign patients) face significant challenges in receiving medical care without the help of a guardian.
 
-현대 의료 현장에서 언어적 소통이 어려운 환자(청각·언어장애인, 노인, 외국인 등) 은 보호자의 도움 없이 진료를 받는 데 큰 불편을 겪고 있습니다.
+In particular, elderly patients often struggle to fill out hospital questionnaires or express their symptoms verbally, which can lead to inaccurate symptom descriptions.
 
-특히 고령층 환자는 병원 설문지 작성이나 구두 진술에 어려움을 느껴, 증상 전달이 부정확하게 이루어지는 경우가 많습니다.
+Our goal is to “create a medical environment where all patients can receive treatment without communication barriers or guardians.”
 
-우리의 목표는 “언어장벽을 넘어, 모든 환자가 보호자 없이도 진료받을 수 있는 의료환경을 만드는 것”입니다.
+To achieve this, we developed a medical assistance system that combines multi-modal communication (voice, text, image) with AI-based summarization technology.
 
-이를 위해 음성·텍스트·그림 기반의 다중 소통 방식과 인공지능 요약 기술을 결합한 진료 보조 시스템을 개발했습니다.
+### 2️⃣ Problem Definition
 
-### 2️⃣ 문제 정의
 
+🔈 **Limitations in Communication**	
 
-🔈 **언어소통의 한계**	
+Patients with hearing impairments, unclear speech, or foreign language barriers often cannot clearly describe their symptoms to doctors.
 
-청각장애 환자, 발음이 불명확한 노인, 외국인 환자는 진료실에서 자신의 증상을 구체적으로 표현하기 어렵다.
 
+🩹 **Dependency on Guardians**	
 
-🩹 **보호자 의존**	
+Without a guardian, treatment may not proceed properly, and miscommunication between the patient and doctor may occur.
 
-보호자가 없으면 진료 자체가 불가능하거나, 의료진이 환자의 의도를 오해하는 경우 발생.
 
+📋 **Inefficient Questionnaires**
 
-📋 **비효율적인 설문**
+Hospital forms are complex and difficult to understand, leading patients to fill them out superficially.
 
-병원 설문지는 복잡하고 이해하기 어려워, 환자들이 형식적으로 체크하고 넘어감.
 
+### 3️⃣ Solution Approach
 
-### 3️⃣ 해결 방향
+We combine non-verbal communication methods with AI summarization and speech recognition technologies to solve these problems.
 
-우리는 ‘언어에 의존하지 않는 물리적 소통 방식’ 과 ‘AI 요약 및 음성 인식 기술’ 을 결합하여 문제를 해결합니다.
 
-**환자의 시각적 표현 중심 진료 지원**
+**Visual Interaction–Based Support**
 
-- 환자는 버튼 터치 또는 그림(픽토그램)을 통해 “어디가, 어떻게, 얼마나 아픈지”를 표현할 수 있습니다.
-- 예: 신체 그림에서 복부를 터치 → “배가 아파요”로 변환.
+- Patients can express where and how much pain they feel using buttons or pictograms.
+- Example: Touching the abdomen on a body diagram → automatically converts to “My stomach hurts.”
 
 
-**AI의 자동 진료 요약 기능**
+**Automatic AI Medical Summarization**
+- The AI generates concise summaries for doctors, such as:
+“The patient has experienced abdominal pain at level 3 since yesterday afternoon.”
+- Doctor’s spoken diagnosis is transcribed and summarized in real time.
 
-- AI가 환자의 입력을 바탕으로 의료진에게 “환자는 어제 오후부터 복부통증이 3단계 정도로 지속되고 있습니다.”처럼 텍스트 또는 음성으로 전달.
-- 의사의 음성 진단은 AI가 실시간으로 인식하여 텍스트로 변환 및 요약.
 
+**Readable, Patient-Friendly Summaries**
+- Converts medical terminology into simple, understandable sentences.
+- Example: “This condition is gastritis” → “You have had stomach discomfort for a few days, which can be treated with medication.”
 
-**가독성 높은 요약문 제공**
 
-- 의학 용어를 환자 친화적인 문장으로 다시 풀어냄.
-- 예: “이 질환은 위염입니다 → 속 쓰림이 며칠간 지속된 상태로, 약물치료로 충분히 회복 가능합니다.”
+### 4️⃣ System Architecture
 
 
-### 4️⃣ 시스템 구성
+**📱 App (for Patients)**
 
 
-**📱 앱 (환자용)**
+**Step 1: Symtom Expression**
 
+- Touch-based or pictogram input for pain location, intensity, and duration
+- Automatically converted into descriptive sentences by AI
 
-**1단계: 증상 표현**
 
-- 버튼 또는 그림 기반 입력으로 통증 부위·정도·기간 표현
-- AI가 이를 문장으로 자동 변환
+**Step 2: Real-Time Subtitle Display During Consultation**
 
-**2단계: 진료 중 실시간 자막 화면**
+- Speech recognition (Whisper / Wav2Vec 2.0) converts doctor and patient speech into captions
+- Automatically translates medical jargon and highlights key symptoms
 
-- 음성 인식(Whisper / Wav2Vec 2.0)으로 의사·환자 발화 자막화
-- 의학 용어 자동 풀이 + 핵심 증상 하이라이트 표시
+**Step 3: Post-Consultation Summary Screen**
 
-**3단계: 진료 후 요약 결과 화면**
+- Summarization models (KoT5-small / BART-base) automatically summarize consultation content
+- Provides results in sections: “Symptom Summary / Prescribed Medication / Doctor’s Instructions / Next Appointment”
+- Downloadable and shareable with medical staff
 
-- 요약 모델(KoT5-small / BART-base)로 진료 내용을 자동 요약
-- “증상 요약 / 처방 약물 / 지시사항 / 다음 진료 일정” 형태로 제공
-- 다운로드 및 의료진 공유 가능
+**Step 4: Health Journal Recording**
 
-**4단계: 건강 일지 기록**
+- Records user health conditions, medication, diet, sleep, and mood
+- Can be shared with guardians or doctors
 
-- 자가 건강 상태, 복용약, 식사·수면, 기분 기록
-- 의료진 또는 보호자와 공유 가능
 
+**💻 Web (for Doctors and Guardians)**
 
-**💻 웹 (의료진 및 보호자용)**
 
+**User	Main Functions**
 
-**사용자	주요 기능**
+**Doctor** -	Manage patient list, view symptom logs, and review medication history
 
-**의료진** -	환자 목록 관리, 증상 기록 및 건강 일지 열람, 약물 이력 확인
+**Guardian** -	Write and share patient health logs with doctors, view medical records
 
-**보호자** -	환자 건강일지 작성 및 의사에게 공유, 진료 기록 열람
 
+### 5️⃣ Tech Stack
 
-### 5️⃣ 기술 스택
 
+| Function           | Technology Used                       |
+| ------------------ | ------------------------------------- |
+| Speech Recognition | Whisper small / Wav2Vec 2.0           |
+| Text Summarization | KoT5-small / BART-base                |
+| Speech Correction  | Naver Clova CSR + GPT Post-Processing |
+| App Frontend       | React Native CLI                      |
+| App Backend        | FastAPI + Firebase                    |
+| Web Frontend       | React / TypeScript                    |
+| Web Backend        | FastAPI + MongoDB                     |
 
-| 기능     | 사용 기술                       |
-| ------ | --------------------------- |
-| 음성 인식  | Whisper small / Wav2Vec 2.0 |
-| 텍스트 요약 | KoT5-small / BART-base      |
-| 음성 교정  | 네이버 클로바 CSR + GPT 후처리       |
-| 앱 프론트  | React Native CLI            |
-| 앱 백엔드  | FastAPI + Firebase          |
-| 웹 프론트  | React / TypeScript          |
-| 웹 백엔드  | FastAPI + MongoDB           |
 
+### 6️⃣ AI Post-Processing and Refinement Strategy
 
-### 6️⃣ AI 후처리 및 정제 전략
+1. Using N-best Candidates 
+- Collect top N transcription results and select the most natural one based on context.
 
-1. N-best 후보 활용
-- 음성 인식 결과 상위 N개를 받아 문맥 기반으로 가장 자연스러운 결과 선택
+2. GPT-Based Correction
+- Applied prompt: “Convert the doctor’s medical explanation into simple sentences understandable by elderly patients.”
+- Corrects unclear speech or dialects and converts to standard language.
 
-2. GPT 기반 교정
-- “의사의 진단 발화를 노인도 이해할 수 있는 쉬운 문장으로 교정해줘” 프롬프트 적용
-- 사투리·발음 불명확 음성 교정 및 표준어화 처리
 
+### 7️⃣  Social Value and Expected Impact
 
-### 7️⃣  사회적 가치와 기대효과
+👵 **Improved Accessibility**: Enables communication for patients with hearing impairments or speech difficulties without guardians.
 
-**👵 의료 접근성 향상** : 청각장애인·노인 등 언어소통이 어려운 환자도 보호자 없이 진료 가능
+🏥 **Increased Efficiency for Medical Staff**: Helps doctors quickly and accurately grasp patient conditions.
 
-**🏥 의료진의 효율성 증대** : 환자 상태를 빠르고 정확하게 파악
+💬 **Diversified Communication**: Expands from language-based consultations to visual and AI-assisted interactions.
 
-**💬 소통 방식의 다양화** : 언어 중심 진료에서 ‘그림·터치·AI요약’ 중심 진료로 확장
+🤝 **Foundation for Digital Healthcare**: Demonstrates practical application of AI in the medical field.
 
-**🤝 디지털 헬스케어 기반 마련** : 의료 AI의 실질적 사회 적용 가능성 제시
 
+### 8️⃣  Demonstration Scenario (Example for Presentation)
 
-### 8️⃣  시연 시나리오 (발표용 예시)
+**Patient(Elderly)** : Touches the abdomen on the screen → displays “My stomach hurts.”
 
-**환자(노인)** : “...” 대신 화면의 배를 터치 → “배가 아파요”로 표시
+**AI**: “The patient has been experiencing abdominal pain since yesterday afternoon.”
 
-**AI** : “어제 오후부터 복부 통증이 지속되고 있습니다.”
+**Doctor**: “It seems to be indigestion. If pain persists after taking medication, we’ll run some tests.”
 
-**의사** : “소화불량으로 보입니다. 약 복용 후에도 통증이 지속되면 검사합시다.”
+**AI Summary**:
+- Diagnosis: Indigestion
+- Instruction: Follow-up after 3 days of medication
+- Explanation: Caused by stomach irritation, dietary control recommended
 
-**AI 요약** :
 
-- 진단: 소화불량
-- 지시사항: 약 복용 후 3일 뒤 경과 확인
-- 설명: 속 쓰림이 원인으로, 음식 조절 필요
 
+### ✨ Conclusion
 
-### ✨ 결론
+This project is an AI-assisted medical consultation system designed for individuals excluded from healthcare due to communication barriers.
 
-이 프로젝트는 언어적 제약으로 의료 사각지대에 놓인 사람들을 위한 AI 진료 보조 시스템입니다.
-
-“말을 대신해주는 기술”이 아니라, ‘이해를 대신해주는 기술’ 을 목표로 합니다.
-
-이를 통해 환자, 보호자, 의료진 모두가 소통의 벽 없이 연결되는 의료 환경을 만들어 가고자 합니다.
+Our goal is not to create a “technology that speaks for you,” but a “technology that understands for you.”
+T
+shrough this, we aim to build a medical environment where patients, guardians, and doctors can all communicate seamlessly, without barriers.

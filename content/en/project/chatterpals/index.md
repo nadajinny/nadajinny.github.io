@@ -2,6 +2,7 @@
 title: Chatterpals
 summary: 2025 DATA VENTURE Problem-Solving Challenge
 date: 2025-10-01
+draft: false
 authors:
   - admin
 tags:
