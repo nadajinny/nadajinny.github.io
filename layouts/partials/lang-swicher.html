@@ -1,0 +1,7 @@
+{{ if .IsTranslated }}
+<ul class="lang-switch">
+  {{ range .AllTranslations }}
+    <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
