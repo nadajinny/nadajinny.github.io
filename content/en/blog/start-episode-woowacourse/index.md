@@ -16,6 +16,8 @@ tags:
 
 content_meta:
   trending: true
+
+draft: false
 ---
 
 안녕하세요 👋

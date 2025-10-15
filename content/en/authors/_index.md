@@ -6,4 +6,5 @@ cascade:
   build:
     render: never
     list: always
+draft: false
 ---

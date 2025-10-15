@@ -8,7 +8,7 @@ weight: 20         # 목록 정렬용 (작을수록 위)
 # image:
 #   filename: feature.jpg
 #   caption: ""
-
+draft : false
 content_meta:
   content_type: 'Course'
   difficulty: 'Beginner'
