@@ -1,6 +1,6 @@
 ---
-title: 🧠 카카오 관광데이터 공모전을 준비하며
-summary: 카카오 관광데이터 공모전을 준비하고 진행하면서 느낀점을 정리
+title: 🧠 Preparing for the Kakao Tourism Data Contest
+summary: Reflections on the process and insights gained while preparing for and participating in the Kakao Tourism Data Contest
 date: 2025-09-26
 authors:
   - admin
@@ -12,71 +12,59 @@ image:
 ---
 
 
-## 카카오 관광데이터 공모전을 준비하며
+## Preparing for the Kakao Tourism Data Contest
 
-카카오 관광데이터 공모전을 준비하면서, 단순히 기능 구현을 넘어 **‘데이터로 감성을 전달하는 여행 서비스’**에 대해 진지하게 고민할 수 있었습니다.
+While preparing for the Kakao Tourism Data Contest, I was able to think deeply about creating a **“travel service that delivers emotions through data,”** rather than just focusing on implementing functions.
+This project aimed to build an AI-based literary travel platform that connects places described in literature with real-world destinations, under the theme “the convergence of literature and travel.”
 
-이번 프로젝트는 ‘문학과 여행의 융합’을 주제로, 책 속의 공간과 현실의 장소를 연결하는 AI 기반 문학 여행 플랫폼을 만드는 과정이었습니다.
+## ✍️ The Starting Point of the Idea
+At first, we simply thought about “traveling to places mentioned in literary works,” but as we began working with data, the concept expanded.
 
-## ✍️ 아이디어의 출발점
+**“What if users could enter a book title, and the system would recommend travel routes based on the book’s setting?”**
 
-처음엔 단순히 “문학 작품 속 장소를 찾아가는 여행”을 떠올렸지만, 데이터를 붙이기 시작하면서 생각이 점점 확장되었습니다.
+**“What if, when users reach a particular location, they could listen to a quote from the book that mentions that place?”**
 
-**“사용자가 책을 입력하면, 그 책의 배경지를 중심으로 여행 코스를 제안해주면 어떨까?”**
+To make these ideas a reality, we combined Kakao Maps, Public Cultural Data, and Book APIs.
 
-**“여행 중 특정 장소에 도달하면, 그곳이 등장하는 문장을 바로 들을 수 있으면 어떨까?”**
+Each piece of data felt like it was telling a story, and for the first time, I experienced the sense that I wasn’t just coding — I was designing an experience.
 
-이런 상상을 실현하기 위해 Kakao 지도, 문화공공데이터, 도서 API 등을 조합해 나갔습니다.
+## ⚙️ Challenges During Implementation
+The biggest challenge was ensuring connectivity between datasets.
 
-데이터 하나하나가 스토리를 만들어주는 느낌이었고, 단순한 기능 구현이 아니라 ‘경험을 설계한다’는 감각을 처음으로 느꼈습니다.
+Book information, regional attractions, and cultural event data all came from different sources with inconsistent formats.
 
-## ⚙️ 구현 과정에서의 고민
-가장 큰 도전은 데이터 간 연결성 확보였습니다.
+To link them naturally, we implemented both keyword-based matching and coordinate-based recommendations.
 
-도서 정보, 지역 관광지, 공연·전시 데이터 등 출처가 모두 달라서 포맷이 제각각이었거든요.
+While developing the location-based notification feature, adjusting GPS precision and API call timing proved to be tricky.
 
-이를 자연스럽게 엮기 위해 ‘키워드 기반 매칭’과 ‘좌표 기반 추천’을 병행했습니다.
+Through this, I learned that user experience matters more than technical perfection — technology is ultimately a tool to convey emotion.
 
-또한 사용자 위치 기반 알림 기능을 구현하면서, GPS 정밀도와 API 호출 타이밍을 조정하는 게 까다로웠습니다.
 
-이 과정에서 “기술적인 완성도보다, 사용자 경험이 더 중요하다”는 걸 배웠습니다.
+## 💡 Collaboration and Project Planning
 
-결국 기술은 감동을 전달하기 위한 수단이라는 걸 깨달았습니다.
+The contest taught me that success isn’t just about coding skills — it requires planning ability, data literacy, and storytelling.
 
-## 💡 협업과 기획의 확장
+Since the theme “expressing literary emotion through data” was quite abstract, our team engaged in extensive discussions to visually map out the user journey, and we designed detailed **flowcharts (integration diagrams)** connecting all the key features.
 
-공모전은 단순히 코딩 실력만으로 되는 게 아니라,
 
-기획력, 데이터 이해력, 그리고 스토리텔링 능력이 모두 필요한 종합 예술이라는 걸 체감했습니다.
+## 🌿 Reflections and Lessons Learned
 
-특히 “문학 감성을 데이터로 구현한다”는 주제는 추상적이라,
+I realized the immense potential of public data.
 
-팀원들과 많은 토론을 거쳐 사용자 여정을 시각적으로 정리하고,
+Even a single API can generate countless creative contents, and depending on how the data is connected, it can provide entirely new experiences.
 
-각 기능을 연결하는 **플로우 차트(연동 구조도)**를 직접 설계했습니다.
+I learned the importance of balancing planning and technology.
 
-## 🌿 느낀 점과 배운 점
+A project isn’t great just because it has many features — it becomes meaningful when the story and emotion resonate.
 
-공공데이터의 잠재력을 체감했습니다.
+Above all, I felt genuine joy in merging my love for literature and technology.
 
-API 하나로도 수많은 콘텐츠를 만들 수 있고, 연결 방식에 따라 완전히 새로운 경험을 줄 수 있다는 걸 느꼈습니다.
+This is a theme I’d like to continue developing even after the contest.
 
-기획과 기술의 균형이 중요하다는 걸 배웠습니다.
+## 🚀 In Conclusion
 
-기능이 많다고 좋은 게 아니라, 스토리와 감정이 통할 때 진짜 ‘여행’이 완성된다는 걸 깨달았습니다.
+The Kakao Tourism Data Contest wasn’t just a development experience — it was a journey of exploring how data can move human emotions.
 
-무엇보다, 내가 좋아하는 문학과 기술을 결합할 수 있다는 기쁨이 컸습니다.
+Imagine starting a trip with a single line from a book, and then hearing that same line come alive in the real place where it was written —
 
-공모전이 끝나도 계속 발전시키고 싶은 주제라고 느꼈습니다.
-
-## 🚀 마무리하며
-
-이번 카카오 관광데이터 공모전은 단순한 개발 경험이 아니라,
-
-“데이터를 통해 사람의 감성을 움직이는 서비스란 무엇인가”를 고민하게 만든 여정이었습니다.
-
-여행을 떠날 때, 책 한 권의 문장으로 시작해
-
-그 문장이 실제 공간에서 다시 울리는 순간—
-
-그 감동을 기술로 구현하는 게 우리의 목표였습니다.
+That emotional connection, recreated through technology, was our ultimate goal.
