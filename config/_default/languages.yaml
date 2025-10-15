@@ -1,12 +1,11 @@
-languages:
-  ko:
-    languageName: "한국어"
-    weight: 1
-    title: "이진선 포트폴리오"
-    contentDir: "content/ko"
+ko:
+  languageName: "한국어"
+  weight: 1
+  title: "이진선 포트폴리오"
+  contentDir: "content/ko"
 
-  en:
-    languageName: "English"
-    weight: 2
-    title: "Jinsun Lee — Portfolio"
-    contentDir: "content/en"
+en:
+  languageName: "English"
+  weight: 2
+  title: "Jinsun Lee — Portfolio"
+  contentDir: "content/en"
