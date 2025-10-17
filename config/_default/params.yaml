@@ -8,7 +8,6 @@ appearance:
   mode: system
   color: indigo
 
-
 # SEO
 marketing:
   favicon: 'favicon.png'
@@ -53,6 +52,14 @@ header:
       image: 'icon.png'
       link: '/'
 
+images:
+  - "uploads/social_preview.png"
+
+logo:
+  text: '이진선 포트폴리오'
+  image: "uploads/icon.png"
+  link: '/'
+
 # Site footer
 footer:
   copyright:
@@ -74,3 +81,15 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+
+icon: 
+  pack: 'fas'
+  provider: 'fontawesome'
+
+#기본 테마색깔 변경
+theme:
+  base_color: "#B7C3F2"    
+  primary_color: "#D5B8F2" 
+  secondary_color: "#E5D1FA"
+
