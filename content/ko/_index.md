@@ -16,9 +16,9 @@ sections:
       username: admin
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      # button:
-      #   text: Download CV
-      #   url: uploads/resume.pdf
+      button:
+        text: Download CV
+        url: uploads/ndjinny_cv.pdf
       headings:
         about: ''
         education: ''
@@ -122,7 +122,7 @@ sections:
     design:
       columns: '3'
 
-  
+  # 템플릿의 버전 문제로 인해 슬라이더가 별도로 사용 불가능하여 html로 구현하였습니다. 
   - block: markdown
     markup: "html"
     content:

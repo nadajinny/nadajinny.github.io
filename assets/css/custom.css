@@ -2,3 +2,34 @@
   text-align: justify;
   text-justify: inter-word;
 }
+/* ...existing code... */
+
+/* 버튼 hover 색상: 데모 템플릿의 버튼 클래스(.btn, .btn-hover 등)를 덮어씁니다 */
+.btn,
+.btn-hover,
+button,
+a.btn {
+  transition: background-color .18s ease, color .18s ease, transform .12s ease;
+}
+
+/* primary 색상으로 hover */
+.btn:hover,
+.btn-hover:hover,
+button:hover,
+a.btn:hover {
+  background-color: #0b74de !important; /* 새 기본 테마 색상(원하면 config와 일치시키세요) */
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}
+
+/* FAB 등 원형 버튼의 hover 효과 (이미 존재하는 데모 클래스 보완) */
+.fab,
+.hbx-fab .fab {
+  transition: background-color .18s ease, transform .12s ease, box-shadow .18s ease;
+}
+.fab:hover,
+.hbx-fab .fab:hover {
+  background-color: #0b74de !important;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(11,116,222,0.18);
+}
