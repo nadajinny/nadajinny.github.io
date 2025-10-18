@@ -17,10 +17,12 @@ a.btn {
 .btn-hover:hover,
 button:hover,
 a.btn:hover {
-  background-color: #0b74de !important; /* 새 기본 테마 색상(원하면 config와 일치시키세요) */
+  background-color: #D5B8F2 !important; /* 새 기본 테마 색상(원하면 config와 일치시키세요) */
   color: #ffffff !important;
-  transform: translateY(-2px);
+  transform: scale(1.08);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+
 
 /* FAB 등 원형 버튼의 hover 효과 (이미 존재하는 데모 클래스 보완) */
 .fab,
