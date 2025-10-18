@@ -1,7 +1,5 @@
 # SITE SETUP
 # Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
 appearance:
@@ -26,17 +24,11 @@ marketing:
       - 모바일
       - 웹
       - 프로젝트
-    image: 'sharing.jpg'
+    image: 'sharing.jpg'  # ✅ 이 부분을 filename 대신 image로 지정해야 함
   analytics:
     google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
   verification:
     google: ''
-    baidu: ''
-
 
 # Site header
 header:
@@ -49,16 +41,8 @@ header:
     show_logo: true
     logo:
       text: '이진선 포트폴리오'
-      filename: 'logo.png'
+      filename: 'logo.png'   # ✅ HugoBlox는 여기 filename 키를 찾음
       link: '/'
-
-images:
-  - 'sharing.jpg'
-
-logo:
-  text: '이진선 포트폴리오'
-  filename: 'logo.png'
-  link: '/'
 
 # Site footer
 footer:
@@ -82,15 +66,15 @@ features:
   privacy_pack:
     enable: false
 
-
 icon: 
   pack: 'fas'
   provider: 'fontawesome'
 
-#기본 테마색깔 변경
+#기본 테마 색상
 theme:
-  base_color: "#B7C3F2"    
-  primary_color: "#D5B8F2" 
+  base_color: "#B7C3F2"
+  primary_color: "#D5B8F2"
   secondary_color: "#E5D1FA"
 
+# OG 이미지 (SNS 공유용)
 og_image: 'sharing.jpg'
