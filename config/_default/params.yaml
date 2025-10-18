@@ -26,7 +26,7 @@ marketing:
       - 모바일
       - 웹
       - 프로젝트
-    image: "uploads/social_preview.jpg"
+    image: 'sharing.jpg'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -49,15 +49,15 @@ header:
     show_logo: true
     logo:
       text: '이진선 포트폴리오'
-      filename: "logo.png"
+      filename: 'logo.png'
       link: '/'
 
 images:
-  - "sharing.jpg"
+  - 'sharing.jpg'
 
 logo:
   text: '이진선 포트폴리오'
-  filename: "logo.png"
+  filename: 'logo.png'
   link: '/'
 
 # Site footer
@@ -93,4 +93,4 @@ theme:
   primary_color: "#D5B8F2" 
   secondary_color: "#E5D1FA"
 
-og_image: "sharing.jpg"
+og_image: 'sharing.jpg'
