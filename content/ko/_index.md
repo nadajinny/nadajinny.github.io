@@ -33,45 +33,48 @@ sections:
   
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 My Current Study'
       subtitle: ''
       text: |-
-        <div class="text-justify">
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        <div class="text-center">
+          컴퓨터그래픽스<br>
+          웹서비스 설계<br>
+          초급 프로젝트<br>
+          기계 학습<br>
+          유전알고리즘<br>
+          소프트웨어공학<br>
+          데이터마이닝<br>
+          현대사회와 빅데이터분석
         </div>
+
     design:
       columns: '1'
 
   - block: markdown
     content:
       title: "🎯 My Interest & Career Goal"
-      subtitle: "나다 이의 연구 관심사와 앞으로의 비전"
+      subtitle: "이진선의 최근 관심사와 앞으로의 비전"
       text: |-
         <div class="text-justify">
-        저는 **인공지능(AI)**과 **의료 데이터 분석**, **휴먼-컴퓨터 인터랙션(HCI)**에 깊은 관심을 가지고 있습니다.  
-        특히 의료 영상 및 생체 신호를 활용하여 사람의 건강 상태를 더 정확하게 진단하고,  
-        의료 현장에서 실제로 도움을 줄 수 있는 **AI 기반 진료 보조 시스템**을 연구하고 있습니다.
+        저는 공모전과 부트캠프에 관심을 가지고 있습니다.  
+        특히 현재 자신이 가지고 있는 개발 주제를 넘어 개발의 필요성을 가진 개발물에 대해서 깊은 관심을 가지고 있습니다. 
+        현재는 5개의 공모전과 1개의 부트캠프 프리코스에 참여 중입니다..
         </div>
 
         <div class="text-justify">
-        💡 **관심사(Interest):**  
-        의료 인공지능, 멀티모달 데이터 분석, 딥러닝 모델 해석 가능성, 인간 중심 AI, 실시간 데이터 기반 예측 모델링
+        💡 관심사(Interest):
+        유튜브 : 정서불안 김햄찌 / 게임 / 공모전 / 부트캠프
         </div>
 
         <div class="text-justify">
-        🧭 **진로:**  
-        임상 데이터 기반 AI 모델 개발 및 의료 현장에 실제로 적용되는 알고리즘 설계.  
-        나아가 의료 기술의 신뢰성과 윤리성을 모두 고려하는 연구자로 성장하는 것이 목표입니다.
+        🧭 진로:
+        저는 사용자의 니즈에 맞는 개발을 진행하는 소프트웨어 개발자가 되고 싶습니다. 
         </div>
 
         <div class="text-justify">
-        🎓 ** 목표(Career Goal):**  
-        의료 영상과 음성 데이터를 결합한 멀티모달 진단 AI 연구를 수행 중이며,  
-        연구 효율화를 위해 React Native 기반 의료 기록 앱(Medi-Mate)을 직접 개발하여 실제 사용자 데이터를 수집·분석하고 있습니다.
+        🎓  목표(Career Goal):
+        졸업하기 전, 저만의 개발물을 만들어 직접 배포를 진행하고 사용자들의 피드백을 받으며 지속적으로 유지하는 어플리케이션을 만들고 싶습니다. 
+        그리고 직접 홍보를 진행하며 개발물이 어떻게 사람들에게 다가가는지에 대해서 공부해보고 싶습니다. 
         </div>
 
   - block: markdown
@@ -79,23 +82,22 @@ sections:
       title: "💡 My Research Highlights"
       subtitle: "제가 진행 중이거나 참여한 프로젝트 카드 보기"
       text: |-
-        {{< cards-grid type="a" count="6" >}}
-
+        {{< cards-grid types="a, b, c" >}}
         <div class="text-justify">
         위 카드들은 제가 진행했던 주요 프로젝트를 간략히 보여줍니다.  
-        예를 들어, 의료 데이터 분석을 위한 딥러닝 모델 개발,  
-        AI 음성 요약 기반 진료 기록 앱 **Medi-Mate**,  
-        그리고 실시간 건강 모니터링 시스템 등이 포함되어 있습니다.
+        예를 들어, 사용 중인 사이트를 통해 외국어 학습을 진행하는 Chatterpals,  
+        AI 음성 요약 기반 진료 기록 앱 Medi-Mate,  
+        그리고 여행과 독서를 융합한 Read&Lead 등이 포함되어 있습니다.
         </div>
 
         <div class="text-justify">
-        각 프로젝트는 기술적인 완성도뿐만 아니라 **사용자 중심 설계(User-centered Design)**와  
-        **윤리적 AI 구현(Ethical AI Implementation)**을 중요한 가치로 삼고 있습니다.
+        각 프로젝트는 기술적인 완성도뿐만 아니라 사용자 중심 설계(User-centered Design)와  
+        목적에 어우러지는 개발을 중요한 가치로 삼고 있습니다.
         </div>
 
         <div class="text-justify">
         앞으로도 학문적 연구와 실용적 기술이 균형을 이루는  
-        **의료 AI 연구자**로 성장하기 위해 꾸준히 탐구를 이어갈 예정입니다.
+        소프트웨어 개발자로 성장하기 위해 꾸준히 탐구를 이어갈 예정입니다.
         </div>
 
 
@@ -424,6 +426,8 @@ sections:
       text: |-
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.121143956724!2d127.13188281121828!3d35.846032920789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35702330dc920b9d%3A0x1d0d425396006646!2z7KCE67aB64yA7ZWZ6rWQIOqzteqzvOuMgO2VmSA37Zi46rSA!5e0!3m2!1sko!2skr!4v1760321001816!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+
+  
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

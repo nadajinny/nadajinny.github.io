@@ -1,50 +1,144 @@
 {{/* layouts/shortcodes/cards-grid.html */}}
 {{ $type := .Get "type" | default "a" }}
 {{ $count := int (.Get "count" | default "6") }}
+{{ $typesParam := .Get "types" | default "" }}
+{{ $types := slice }}
+{{ if $typesParam }}
+  {{ range $idx, $val := split $typesParam "," }}
+    {{ $trimmed := trim $val " " }}
+    {{ if $trimmed }}
+      {{ $types = $types | append $trimmed }}
+    {{ end }}
+  {{ end }}
+{{ end }}
 
 
-{{/* 예시용 Unsplash 이미지 5개 */}}
+{{/* 예시용 Unsplash 이미지 6개 */}}
 {{ $unsplash := slice
-  "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=1200&q=80&auto=format&fit=crop"
-  "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80&auto=format&fit=crop"
-  "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?w=1200&q=80&auto=format&fit=crop"
-  "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80&auto=format&fit=crop"
-  "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200&q=80&auto=format&fit=crop"
+  "https://images.unsplash.com/photo-1552068751-34cb5cf055b3?auto=format&fit=crop&q=80&w=1065"
+  "https://images.unsplash.com/photo-1759752783876-a7016334eb34?auto=format&fit=crop&q=80&w=1010"
+  "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=2070"
 }}
 
+<style>
+  /* ✅ 공통 Overlay 및 Hover 버튼 효과 */
+  .overlay-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .overlay-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  }
+  .overlay-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  .overlay-card:hover img {
+    transform: scale(1.05);
+  }
+  .overlay-layer {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4); /* ✅ 투명도 레이어 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  .overlay-card:hover .overlay-layer {
+    opacity: 1;
+  }
+  .overlay-btn {
+    background-color: #B7C3F2;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  .overlay-btn:hover {
+    background-color: #D5B8F2;
+    transform: scale(1.08);
+  }
+</style>
+
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-  {{ range $i := seq 1 $count }}
-    {{ $img := index $unsplash (mod $i (len $unsplash)) }}
+  {{ if gt (len $types) 0 }}
+    {{ range $idx, $itemType := $types }}
+      {{ $img := index $unsplash (mod $idx (len $unsplash)) }}
+      {{ $number := add $idx 1 }}
 
-    {{ if eq $type "a" }}
-      <article class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden transition">
-        <div class="h-48 bg-cover bg-center" style="background-image:url('{{ $img }}')"></div>
-        <div class="p-4">
-          <h3 class="text-xl font-semibold mb-2">프로젝트 {{ $i }}</h3>
-          <p class="text-gray-600 text-sm text-justify">
-            의료 인공지능 및 데이터 기반 연구 프로젝트 요약입니다.  
-            AI 모델 개발과 실제 임상 적용을 목표로 하고 있습니다.
-          </p>
+      {{- with $itemType -}}
+        {{- if eq . "a" -}}
+          <article class="overlay-card bg-white">
+            <img src="{{ $img }}" alt="Chatterpals">
+            <div class="overlay-layer">
+              <a href="/project/" class="overlay-btn">Details</a>
+            </div>
+            <div class="p-4 text-gray-700 text-sm text-justify">
+              <h3 class="font-semibold text-lg mb-2 text-center">Chatterpals</h3>
+            </div>
+          </article>
+
+        {{- else if eq . "b" -}}
+          <article class="overlay-card bg-white">
+            <img src="{{ $img }}" alt="Read&Lead">
+            <div class="overlay-layer">
+              <a href="/project/" class="overlay-btn">Details</a>
+            </div>
+            <div class="p-4 text-gray-700 text-sm text-justify">
+              <h3 class="font-semibold text-lg mb-2 text-center">Read&Lead</h3>
+            </div>
+          </article>
+
+        {{- else if eq . "c" -}}
+          <article class="overlay-card bg-white">
+            <img src="{{ $img }}" alt="Medi-Mate">
+            <div class="overlay-layer">
+              <a href="/project/" class="overlay-btn">Details</a>
+            </div>
+            <div class="p-4 text-gray-700 text-sm text-justify">
+              <h3 class="font-semibold text-lg mb-2 text-center">Medi-Mate</h3>
+            </div>
+          </article>
+
+        {{- else -}}
+          <article class="overlay-card bg-transparent">
+            <img src="{{ $img }}" alt="Card Image {{ $number }}">
+            <div class="overlay-layer">
+              <a href="/project" class="overlay-btn">Details</a>
+            </div>
+            <h4 class="mt-2 font-medium text-center">Gallery {{ $number }}</h4>
+          </article>
+        {{- end -}}
+      {{- end -}}
+    {{ end }}
+  {{ else }}
+    {{ range $i := seq 1 $count }}
+      {{ $img := index $unsplash (mod $i (len $unsplash)) }}
+      <article class="overlay-card bg-white">
+        <img src="{{ $img }}" alt="Project {{ $i }}">
+        <div class="overlay-layer">
+          <a href="/project" class="overlay-btn">Details</a>
         </div>
-      </article>
-
-    {{ else if eq $type "b" }}
-      <article class="flex bg-white shadow rounded-lg overflow-hidden hover:shadow-md transition">
-        <div class="w-1/3 bg-cover bg-center" style="background-image:url('{{ $img }}')"></div>
-        <div class="p-4 w-2/3">
-          <h3 class="font-semibold text-lg mb-1">Research {{ $i }}</h3>
-          <p class="text-gray-600 text-sm text-justify">
-            제 관심 분야와 연계된 세부 연구 주제입니다.  
-            의료 데이터 분석, 모델 해석, HCI 응용 등.
-          </p>
-          <a href="#" class="inline-block mt-3 text-primary-500 font-medium hover:underline">Learn more</a>
+        <div class="p-4 text-gray-700 text-sm text-justify">
+          <h3 class="font-semibold text-lg mb-2 text-center">Project {{ $i }}</h3>
+          This is a summary of ongoing AI and data science research projects.  
+          The goal is to bridge development with real-world applications.
         </div>
-      </article>
-
-    {{ else }}
-      <article class="bg-transparent">
-        <img src="{{ $img }}" alt="Card Image {{ $i }}" class="w-full h-48 object-cover rounded-lg shadow-sm">
-        <h4 class="mt-2 font-medium text-center">Gallery {{ $i }}</h4>
       </article>
     {{ end }}
   {{ end }}
