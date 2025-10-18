@@ -10,7 +10,6 @@ appearance:
 
 # SEO
 marketing:
-  favicon: 'favicon.ico'
   seo:
     site_type: Person
     local_business_type: 'Jeonbuk National University - Leejinsun'
@@ -27,7 +26,7 @@ marketing:
       - 모바일
       - 웹
       - 프로젝트
-    image: 'uploads/icon.png'
+    image: "uploads/social_preview.jpg"
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -47,17 +46,18 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
+    show_logo: true
     logo:
       text: '이진선 포트폴리오'
-      image: 'uploads/icon.png'
+      filename: "logo.png"
       link: '/'
 
 images:
-  - "uploads/social_preview.png"
+  - "sharing.jpg"
 
 logo:
   text: '이진선 포트폴리오'
-  image: "uploads/icon.png"
+  filename: "logo.png"
   link: '/'
 
 # Site footer
@@ -93,3 +93,4 @@ theme:
   primary_color: "#D5B8F2" 
   secondary_color: "#E5D1FA"
 
+og_image: "sharing.jpg"
