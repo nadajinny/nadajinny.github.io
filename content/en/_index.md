@@ -18,7 +18,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/leejinsun.pdf
+        url: /uploads/leejinsun.pdf
       headings:
         about: ''
         education: ''
