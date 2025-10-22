@@ -32,6 +32,7 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   
   - block: markdown
+    id: CurrentStudy
     content:
       title: '📚 My Current Study'
       subtitle: ''
@@ -51,6 +52,7 @@ sections:
       columns: '1'
 
   - block: markdown
+    id: career-goal
     content:
       title: "🎯 My Interest & Career Goal"
       subtitle: "이진선의 최근 관심사와 앞으로의 비전"
@@ -78,8 +80,9 @@ sections:
         </div>
 
   - block: markdown
+    id: project-highlights
     content:
-      title: "💡 My Research Highlights"
+      title: "💡 My Project Highlights"
       subtitle: "제가 진행 중이거나 참여한 프로젝트 카드 보기"
       text: |-
         {{< cards-grid types="a, b, c" >}}
@@ -127,6 +130,7 @@ sections:
   # 템플릿의 버전 문제로 인해 슬라이더가 별도로 사용 불가능하여 html로 구현하였습니다. 
   - block: markdown
     markup: "html"
+    id: interest
     content:
       title: "최근 관심사"
       text: |-

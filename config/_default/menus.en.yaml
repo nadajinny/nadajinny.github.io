@@ -26,6 +26,26 @@ main:
     url: /#Top
     weight: 10
     identifier: bio
+  - name: Contact
+    url: /#contact
+    weight: 11
+    parent: bio
+  - name: Current Study
+    url: /#CurrentStudy
+    weight: 12
+    parent: bio
+  - name: Career Goal
+    url: /#career-goal
+    weight: 13
+    parent: bio
+  - name: Project Highlights
+    url: /#project-highlights
+    weight: 14
+    parent: bio
+  - name: Recent Interest
+    url: /#interest
+    weight: 15
+    parent: bio
   # - name: News
   #   url: /#news
   #   weight: 30
@@ -71,4 +91,3 @@ main:
     url: course/
     weight: 60
     identifier: course
-
