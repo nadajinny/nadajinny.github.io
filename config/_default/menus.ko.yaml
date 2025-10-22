@@ -31,7 +31,7 @@ main:
     weight: 11
     parent: bio
   - name: Current Study
-    url: /#CurrentStudy
+    url: /#current-study
     weight: 12
     parent: bio
   - name: Career Goal

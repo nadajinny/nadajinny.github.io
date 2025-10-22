@@ -32,7 +32,7 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   
   - block: markdown
-    id: CurrentStudy
+    id: current-study
     content:
       title: '📚 My Current Study'
       subtitle: ''
